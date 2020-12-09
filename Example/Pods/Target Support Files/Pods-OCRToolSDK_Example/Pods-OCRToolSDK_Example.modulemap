@@ -1,0 +1,6 @@
+framework module Pods_OCRToolSDK_Example {
+  umbrella header "Pods-OCRToolSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

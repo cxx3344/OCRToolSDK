@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCRToolSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of OCRToolSDK.'
+  s.version          = '1.0.0'
+  s.summary          = '身份证识别工具 --OCRToolSDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  1.以静态库Framework的形式提供
                        DESC
 
   s.homepage         = 'https://github.com/cxx3344/OCRToolSDK'
@@ -31,12 +31,22 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'OCRToolSDK/Classes/**/*'
+
+  s.resources = "OCRToolSDK/Resources/*.png"
+
+  s.ios.vendored_frameworks = 'OCRToolSDK/OCRToolSDK.framework'
   
   # s.resource_bundles = {
   #   'OCRToolSDK' => ['OCRToolSDK/Assets/*.png']
   # }
-
+  s.frameworks = "Foundation", "UIKit"
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+
+  s.requires_arc = true
+
+
 end

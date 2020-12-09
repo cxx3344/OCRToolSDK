@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'OCRToolSDK_Example' do
+  pod 'OCRToolSDK', :path => '../'
+
+  target 'OCRToolSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

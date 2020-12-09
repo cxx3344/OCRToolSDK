@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FA85033EE53BF0ADC779548 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0FA85033EE53BF0ADC779548 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4215929AAC1229A0074250AD /* Pods_OCRToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRToolSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* OCRToolSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRToolSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,13 +60,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6E81A7C0A813B97D3821AEF9 /* Pods-OCRToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		774E6EC085A084640433199B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		774E6EC085A084640433199B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		86D01FC1105478E46BF97361 /* Pods_OCRToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRToolSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FCCD8852A3FA5FF9B8FAF33 /* Pods-OCRToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A40411A32A32A0C8BF7EE09E /* Pods-OCRToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0CA0B375CC7F8CBCCD142A1 /* Pods-OCRToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F5420BE9363DDCFFE87F4106 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OCRToolSDK.podspec; path = ../OCRToolSDK.podspec; sourceTree = "<group>"; };
+		F5420BE9363DDCFFE87F4106 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OCRToolSDK.podspec; path = ../OCRToolSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				A40411A32A32A0C8BF7EE09E /* Pods-OCRToolSDK_Tests.debug.xcconfig */,
 				8FCCD8852A3FA5FF9B8FAF33 /* Pods-OCRToolSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = cxx3344;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = TZR7PRA233;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,11 +497,12 @@
 			baseConfigurationReference = 6E81A7C0A813B97D3821AEF9 /* Pods-OCRToolSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZR7PRA233;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCRToolSDK/OCRToolSDK-Prefix.pch";
 				INFOPLIST_FILE = "OCRToolSDK/OCRToolSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.ocrtoolsdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +514,12 @@
 			baseConfigurationReference = C0CA0B375CC7F8CBCCD142A1 /* Pods-OCRToolSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZR7PRA233;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCRToolSDK/OCRToolSDK-Prefix.pch";
 				INFOPLIST_FILE = "OCRToolSDK/OCRToolSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.ocrtoolsdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

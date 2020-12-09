@@ -1,0 +1,6 @@
+framework module OCRToolSDK {
+  umbrella header "OCRToolSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -32,6 +32,12 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>NSCameraUsageDescription</key>
+    <string>允许相机权限后，App可以进行拍照</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>允许相册权限后，App可以保存照片</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>允许相册权限后，App可以获取相册中照片</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

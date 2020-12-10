@@ -66,7 +66,7 @@
 		8FCCD8852A3FA5FF9B8FAF33 /* Pods-OCRToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A40411A32A32A0C8BF7EE09E /* Pods-OCRToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0CA0B375CC7F8CBCCD142A1 /* Pods-OCRToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F5420BE9363DDCFFE87F4106 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OCRToolSDK.podspec; path = ../OCRToolSDK.podspec; sourceTree = "<group>"; };
+		F5420BE9363DDCFFE87F4106 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OCRToolSDK.podspec; path = ../OCRToolSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				CDC924560CE65DAF8FA3F7E2 /* [CP] Embed Pods Frameworks */,
+				3C808002B2D10A78A42534FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,6 +298,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3C808002B2D10A78A42534FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example-resources.sh",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/idHead.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/idHead@2x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/idHead@3x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/idIcon.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/idIcon@2x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/idIcon@3x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/nav_btn_back.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/nav_btn_back@2x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/nav_btn_back@3x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/photograph@2x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/photograph@3x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@2x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idHead.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idHead@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idHead@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idIcon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nav_btn_back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nav_btn_back@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nav_btn_back@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/photograph@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/photograph@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tips_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tips_icon@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		528A6035BA80ED3054EB043E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,24 +382,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CDC924560CE65DAF8FA3F7E2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/OCRToolSDK/OCRToolSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCRToolSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -501,6 +525,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCRToolSDK/OCRToolSDK-Prefix.pch";
 				INFOPLIST_FILE = "OCRToolSDK/OCRToolSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hd.ocrtoolsdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +543,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCRToolSDK/OCRToolSDK-Prefix.pch";
 				INFOPLIST_FILE = "OCRToolSDK/OCRToolSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hd.ocrtoolsdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";

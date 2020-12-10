@@ -6,30 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		25F83910867536E9705199EE7E5184B7 /* OCRToolSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CFA5C90179A05D0973184DC427A564A1 /* Build configuration list for PBXAggregateTarget "OCRToolSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = OCRToolSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		2BB2A5568903B9C1B3D1F413718FC7CB /* OCRToolSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7439A743D3152BE106A96FA0469FA57 /* OCRToolSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		498B630E58C387DCB0B2E0480AA37F29 /* Pods-OCRToolSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0306C5D07CB5CBE7EA899591CFF4DE /* Pods-OCRToolSDK_Example-dummy.m */; };
+		498B630E58C387DCB0B2E0480AA37F29 /* Pods-OCRToolSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84880F8BCEA3AB3CFA91BD1DD08B6ABD /* Pods-OCRToolSDK_Example-dummy.m */; };
 		8372338CD1624473CB4673B708663221 /* Pods-OCRToolSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6DEAB8919799CF2CC90D5A5E413ED0 /* Pods-OCRToolSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9399790F4E3E6CB92634B96A584D0C41 /* Pods-OCRToolSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED94A2002629B983213C532135C4DC34 /* Pods-OCRToolSDK_Tests-dummy.m */; };
-		9B07E75A2580D5AB008DCD58 /* idIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E74D2580D5AB008DCD58 /* idIcon@3x.png */; };
-		9B07E75B2580D5AB008DCD58 /* idIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E74E2580D5AB008DCD58 /* idIcon.png */; };
-		9B07E75C2580D5AB008DCD58 /* idIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E74F2580D5AB008DCD58 /* idIcon@2x.png */; };
-		9B07E75D2580D5AB008DCD58 /* nav_btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7502580D5AB008DCD58 /* nav_btn_back@2x.png */; };
-		9B07E75E2580D5AB008DCD58 /* tips_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7512580D5AB008DCD58 /* tips_icon@2x.png */; };
-		9B07E75F2580D5AB008DCD58 /* tips_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7522580D5AB008DCD58 /* tips_icon@3x.png */; };
-		9B07E7602580D5AB008DCD58 /* nav_btn_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7532580D5AB008DCD58 /* nav_btn_back@3x.png */; };
-		9B07E7612580D5AB008DCD58 /* nav_btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7542580D5AB008DCD58 /* nav_btn_back.png */; };
-		9B07E7622580D5AB008DCD58 /* idHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7552580D5AB008DCD58 /* idHead.png */; };
-		9B07E7632580D5AB008DCD58 /* photograph@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7562580D5AB008DCD58 /* photograph@3x.png */; };
-		9B07E7642580D5AB008DCD58 /* photograph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7572580D5AB008DCD58 /* photograph@2x.png */; };
-		9B07E7652580D5AB008DCD58 /* idHead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7582580D5AB008DCD58 /* idHead@2x.png */; };
-		9B07E7662580D5AB008DCD58 /* idHead@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07E7592580D5AB008DCD58 /* idHead@3x.png */; };
-		9B07E7D52580DB8D008DCD58 /* OCRToolSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B07E7D42580DB8D008DCD58 /* OCRToolSDK.framework */; };
-		9F1298B19B0D87FD09C05AC086D66EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DC85F7B9D989BDA6C803B7E08EC4DE57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DF58989D27CA9717C24F4C1EB4F3FBA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E2C3B2B8AAE7E95D2CC01D658972D183 /* Pods-OCRToolSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A923324A744FA7CBD11300372B860DCA /* Pods-OCRToolSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F72CD40EB9326F7039C6F420CE7C86D2 /* OCRToolSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DA7BAC9D0A3E648936EDAA20BD062 /* OCRToolSDK-dummy.m */; };
+		E2C3B2B8AAE7E95D2CC01D658972D183 /* Pods-OCRToolSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 300BA7FC7EAA41B0ECEE98F43414673F /* Pods-OCRToolSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,64 +45,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		037A5AACD17EF6FB1CFEB1D757FE41E8 /* OCRToolSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCRToolSDK-prefix.pch"; sourceTree = "<group>"; };
-		0D9F534DA60031BBE64B20D4D9401CBD /* Pods-OCRToolSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		02842B53735CD1702AECDFA7F0EAD445 /* idHead.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idHead.png; path = OCRToolSDK/Resources/idHead.png; sourceTree = "<group>"; };
+		0A3BE9325028622D15A894DC8E09C509 /* idHead@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@3x.png"; path = "OCRToolSDK/Resources/idHead@3x.png"; sourceTree = "<group>"; };
 		1224FF8E968B5D70DB7A1E29BC823579 /* Pods-OCRToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1A0306C5D07CB5CBE7EA899591CFF4DE /* Pods-OCRToolSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRToolSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		216DA7BAC9D0A3E648936EDAA20BD062 /* OCRToolSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCRToolSDK-dummy.m"; sourceTree = "<group>"; };
+		1A2528F2DB6138655155179A501D4AF8 /* Pods-OCRToolSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		24B23DE0A8A06BD8029928628ACA1386 /* Pods-OCRToolSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRToolSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		27D54FBD435BF27577ABDFAE76C83EF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		300BA7FC7EAA41B0ECEE98F43414673F /* Pods-OCRToolSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCRToolSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3C17F6BB0FD7D935C59463CA23225BFB /* Pods-OCRToolSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4899E3C7D1CAA6A4D290E17C726531C0 /* Pods-OCRToolSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCRToolSDK_Example.modulemap"; sourceTree = "<group>"; };
-		6999BD0D3612921B446E48C189175A73 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCRToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		6DDD227BC92C629FA21E3002266B85C4 /* Pods-OCRToolSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRToolSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36FFAB53DC24C7313D28FC32D17A2718 /* idIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@2x.png"; path = "OCRToolSDK/Resources/idIcon@2x.png"; sourceTree = "<group>"; };
+		455D6FBBF84C07CB5A0B3F1DD41804E5 /* nav_btn_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = nav_btn_back.png; path = OCRToolSDK/Resources/nav_btn_back.png; sourceTree = "<group>"; };
+		54D3FFDF585B9936F98C091E86B55FD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5DE8510B9080DB31B64CA633420F5853 /* tips_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@3x.png"; path = "OCRToolSDK/Resources/tips_icon@3x.png"; sourceTree = "<group>"; };
+		6AC7951143DDDFC2D7B4F2858CD0CF52 /* idHead@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@2x.png"; path = "OCRToolSDK/Resources/idHead@2x.png"; sourceTree = "<group>"; };
+		6D4215EE19CBFF734321274B34FB7C78 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCRToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6E63E8F819E7DF9DFD5BB096AD3A62DE /* Pods-OCRToolSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		76494B87AF3EE9BF5CFEA778DD4C7B95 /* OCRToolSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.release.xcconfig; sourceTree = "<group>"; };
-		98F5AE7CACC7D29FAEDF5E2DC88A974A /* Pods_OCRToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRToolSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B07E74D2580D5AB008DCD58 /* idIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idIcon@3x.png"; sourceTree = "<group>"; };
-		9B07E74E2580D5AB008DCD58 /* idIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idIcon.png; sourceTree = "<group>"; };
-		9B07E74F2580D5AB008DCD58 /* idIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idIcon@2x.png"; sourceTree = "<group>"; };
-		9B07E7502580D5AB008DCD58 /* nav_btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_btn_back@2x.png"; sourceTree = "<group>"; };
-		9B07E7512580D5AB008DCD58 /* tips_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tips_icon@2x.png"; sourceTree = "<group>"; };
-		9B07E7522580D5AB008DCD58 /* tips_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tips_icon@3x.png"; sourceTree = "<group>"; };
-		9B07E7532580D5AB008DCD58 /* nav_btn_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_btn_back@3x.png"; sourceTree = "<group>"; };
-		9B07E7542580D5AB008DCD58 /* nav_btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_btn_back.png; sourceTree = "<group>"; };
-		9B07E7552580D5AB008DCD58 /* idHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idHead.png; sourceTree = "<group>"; };
-		9B07E7562580D5AB008DCD58 /* photograph@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph@3x.png"; sourceTree = "<group>"; };
-		9B07E7572580D5AB008DCD58 /* photograph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph@2x.png"; sourceTree = "<group>"; };
-		9B07E7582580D5AB008DCD58 /* idHead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idHead@2x.png"; sourceTree = "<group>"; };
-		9B07E7592580D5AB008DCD58 /* idHead@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idHead@3x.png"; sourceTree = "<group>"; };
-		9B07E7D42580DB8D008DCD58 /* OCRToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCRToolSDK.framework; path = OCRToolSDK/OCRToolSDK.framework; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0969DA47A8A815602053DEA94406357 /* OCRToolSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.debug.xcconfig; sourceTree = "<group>"; };
+		7041E8DA4F41AC6BC773996AAF9FAE06 /* nav_btn_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@2x.png"; path = "OCRToolSDK/Resources/nav_btn_back@2x.png"; sourceTree = "<group>"; };
+		75957DF92CAAF61B8F54EBDDBEFBB4CE /* Pods-OCRToolSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCRToolSDK_Example.modulemap"; sourceTree = "<group>"; };
+		7AF30C56449D7453F540604F990B0775 /* idIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@3x.png"; path = "OCRToolSDK/Resources/idIcon@3x.png"; sourceTree = "<group>"; };
+		84880F8BCEA3AB3CFA91BD1DD08B6ABD /* Pods-OCRToolSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRToolSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		8C4620F6AF5D3D085F23944997778A0B /* OCRToolSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.release.xcconfig; sourceTree = "<group>"; };
+		92F12352F501883B970FDBDECB37E7A4 /* tips_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@2x.png"; path = "OCRToolSDK/Resources/tips_icon@2x.png"; sourceTree = "<group>"; };
+		988355695794EB7D8C4128C1E4BBDBE9 /* OCRToolSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.debug.xcconfig; sourceTree = "<group>"; };
+		98F5AE7CACC7D29FAEDF5E2DC88A974A /* Pods_OCRToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCRToolSDK_Example.framework; path = "Pods-OCRToolSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A311A287E265F195C782504AB294278F /* Pods-OCRToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A923324A744FA7CBD11300372B860DCA /* Pods-OCRToolSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCRToolSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		B08F89E0396185E2C890C1E8C0E6EBF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B7439A743D3152BE106A96FA0469FA57 /* OCRToolSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCRToolSDK-umbrella.h"; sourceTree = "<group>"; };
-		B8AEE793B45116F6751D8A9EA878E696 /* OCRToolSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCRToolSDK-Info.plist"; sourceTree = "<group>"; };
-		C1A00320664A13566D978711F6DA086C /* Pods-OCRToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AB400720B346D9FB23B38800B7150D26 /* Pods-OCRToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B163A76645BF5033553F6AB4F58199C6 /* OCRToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCRToolSDK.framework; path = OCRToolSDK/OCRToolSDK.framework; sourceTree = "<group>"; };
+		B1F1FD1445F7CB679FE4A1F5CB3C228B /* Pods-OCRToolSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCRToolSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		B5C444C54577D5A3833D6DF08400FB32 /* Pods-OCRToolSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRToolSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8E73CFCB24093DC26B63E13A9BB6790 /* photograph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@2x.png"; path = "OCRToolSDK/Resources/photograph@2x.png"; sourceTree = "<group>"; };
+		C0EFF16BB710D71EB08A541786FF091C /* nav_btn_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@3x.png"; path = "OCRToolSDK/Resources/nav_btn_back@3x.png"; sourceTree = "<group>"; };
+		C75871139E37CDE41ABA99CE8BE01053 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CA6DEAB8919799CF2CC90D5A5E413ED0 /* Pods-OCRToolSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCRToolSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D4CC68F06FEAB3C8E0BB2B1C1FB546C2 /* OCRToolSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCRToolSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E04ACB7EBAFC388710B4328F09F2F0CE /* Pods_OCRToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRToolSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB6B2B8712A7D2F8E7DAD81F34185F54 /* Pods-OCRToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D90856CFF9974B6FEA9F0999FA63E2D8 /* photograph@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@3x.png"; path = "OCRToolSDK/Resources/photograph@3x.png"; sourceTree = "<group>"; };
+		E04ACB7EBAFC388710B4328F09F2F0CE /* Pods_OCRToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCRToolSDK_Tests.framework; path = "Pods-OCRToolSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED94A2002629B983213C532135C4DC34 /* Pods-OCRToolSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRToolSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		EDF6EB135D0128C609639D537BDAF24D /* Pods-OCRToolSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F2E525C59DF5681AF3E64921A22448F2 /* Pods-OCRToolSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCRToolSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EFCD8A01BBF6F47C95DFD318160C10E4 /* Pods-OCRToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F656148BD71C651D29CDABF584870744 /* Pods-OCRToolSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCRToolSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		FAC183A3CD8C0AF426D9CFCDA83DEA2C /* OCRToolSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCRToolSDK.modulemap; sourceTree = "<group>"; };
+		F78A7846290A2110E520FFDB64E0FCD0 /* Pods-OCRToolSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		F94F42B0C3DECD4F817B1800DE9AE7A6 /* idIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idIcon.png; path = OCRToolSDK/Resources/idIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1ABAD2A417D466F8A03385BC0D1FC1C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B07E7D52580DB8D008DCD58 /* OCRToolSDK.framework in Frameworks */,
-				9F1298B19B0D87FD09C05AC086D66EDB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4C6C292FA259EB0ECA16BF76AC0CDA6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,71 +107,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E3FA6CA51F32109F2EC43885F0836A7 /* OCRToolSDK */ = {
+		00783CC3C6FDFDD1B6E4E186F8DB881E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9B07E7D42580DB8D008DCD58 /* OCRToolSDK.framework */,
-				9B07E74C2580D5AB008DCD58 /* Resources */,
-				CA1494788047324366D602BB2F97BC4B /* Pod */,
-				BEAEFF2FD1ED4E8D6016DEC09EDD34CB /* Support Files */,
+				C75871139E37CDE41ABA99CE8BE01053 /* LICENSE */,
+				6D4215EE19CBFF734321274B34FB7C78 /* OCRToolSDK.podspec */,
+				54D3FFDF585B9936F98C091E86B55FD7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		282DDCE260D389DB08FCCDFE0F36F939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B163A76645BF5033553F6AB4F58199C6 /* OCRToolSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D5AC05DAB264AA289D9D6331B6AE875 /* OCRToolSDK */ = {
+			isa = PBXGroup;
+			children = (
+				282DDCE260D389DB08FCCDFE0F36F939 /* Frameworks */,
+				00783CC3C6FDFDD1B6E4E186F8DB881E /* Pod */,
+				A5A17AB5D5CE237717E3156AFC248586 /* Resources */,
+				659C224547B11013E75AAE2C59D65862 /* Support Files */,
 			);
 			name = OCRToolSDK;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3E6C611C2EE4C5E17C043DD4E07177EA /* Pods-OCRToolSDK_Example */ = {
+		64061DC579ACF7BC96E4764AD5E7A305 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4899E3C7D1CAA6A4D290E17C726531C0 /* Pods-OCRToolSDK_Example.modulemap */,
-				6DDD227BC92C629FA21E3002266B85C4 /* Pods-OCRToolSDK_Example-acknowledgements.markdown */,
-				3C17F6BB0FD7D935C59463CA23225BFB /* Pods-OCRToolSDK_Example-acknowledgements.plist */,
-				1A0306C5D07CB5CBE7EA899591CFF4DE /* Pods-OCRToolSDK_Example-dummy.m */,
-				F2E525C59DF5681AF3E64921A22448F2 /* Pods-OCRToolSDK_Example-frameworks.sh */,
-				0D9F534DA60031BBE64B20D4D9401CBD /* Pods-OCRToolSDK_Example-Info.plist */,
-				A923324A744FA7CBD11300372B860DCA /* Pods-OCRToolSDK_Example-umbrella.h */,
-				EB6B2B8712A7D2F8E7DAD81F34185F54 /* Pods-OCRToolSDK_Example.debug.xcconfig */,
-				C1A00320664A13566D978711F6DA086C /* Pods-OCRToolSDK_Example.release.xcconfig */,
+				98F5AE7CACC7D29FAEDF5E2DC88A974A /* Pods_OCRToolSDK_Example.framework */,
+				E04ACB7EBAFC388710B4328F09F2F0CE /* Pods_OCRToolSDK_Tests.framework */,
 			);
-			name = "Pods-OCRToolSDK_Example";
-			path = "Target Support Files/Pods-OCRToolSDK_Example";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		6F7AC8770CA0818971EB4F0D7CCEE434 /* Development Pods */ = {
+		659C224547B11013E75AAE2C59D65862 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E3FA6CA51F32109F2EC43885F0836A7 /* OCRToolSDK */,
+				988355695794EB7D8C4128C1E4BBDBE9 /* OCRToolSDK.debug.xcconfig */,
+				8C4620F6AF5D3D085F23944997778A0B /* OCRToolSDK.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OCRToolSDK";
 			sourceTree = "<group>";
 		};
 		70F954EB596E998B2F73450EB6E7D245 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E6C611C2EE4C5E17C043DD4E07177EA /* Pods-OCRToolSDK_Example */,
+				9C797E807C2BFC17226C41F86C7AE115 /* Pods-OCRToolSDK_Example */,
 				A82AC8B76E93DFF651B1816D33637A04 /* Pods-OCRToolSDK_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9B07E74C2580D5AB008DCD58 /* Resources */ = {
+		9C797E807C2BFC17226C41F86C7AE115 /* Pods-OCRToolSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
-				9B07E74D2580D5AB008DCD58 /* idIcon@3x.png */,
-				9B07E74E2580D5AB008DCD58 /* idIcon.png */,
-				9B07E74F2580D5AB008DCD58 /* idIcon@2x.png */,
-				9B07E7502580D5AB008DCD58 /* nav_btn_back@2x.png */,
-				9B07E7512580D5AB008DCD58 /* tips_icon@2x.png */,
-				9B07E7522580D5AB008DCD58 /* tips_icon@3x.png */,
-				9B07E7532580D5AB008DCD58 /* nav_btn_back@3x.png */,
-				9B07E7542580D5AB008DCD58 /* nav_btn_back.png */,
-				9B07E7552580D5AB008DCD58 /* idHead.png */,
-				9B07E7562580D5AB008DCD58 /* photograph@3x.png */,
-				9B07E7572580D5AB008DCD58 /* photograph@2x.png */,
-				9B07E7582580D5AB008DCD58 /* idHead@2x.png */,
-				9B07E7592580D5AB008DCD58 /* idHead@3x.png */,
+				75957DF92CAAF61B8F54EBDDBEFBB4CE /* Pods-OCRToolSDK_Example.modulemap */,
+				B5C444C54577D5A3833D6DF08400FB32 /* Pods-OCRToolSDK_Example-acknowledgements.markdown */,
+				1A2528F2DB6138655155179A501D4AF8 /* Pods-OCRToolSDK_Example-acknowledgements.plist */,
+				84880F8BCEA3AB3CFA91BD1DD08B6ABD /* Pods-OCRToolSDK_Example-dummy.m */,
+				F78A7846290A2110E520FFDB64E0FCD0 /* Pods-OCRToolSDK_Example-Info.plist */,
+				B1F1FD1445F7CB679FE4A1F5CB3C228B /* Pods-OCRToolSDK_Example-resources.sh */,
+				300BA7FC7EAA41B0ECEE98F43414673F /* Pods-OCRToolSDK_Example-umbrella.h */,
+				EFCD8A01BBF6F47C95DFD318160C10E4 /* Pods-OCRToolSDK_Example.debug.xcconfig */,
+				AB400720B346D9FB23B38800B7150D26 /* Pods-OCRToolSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-OCRToolSDK_Example";
+			path = "Target Support Files/Pods-OCRToolSDK_Example";
+			sourceTree = "<group>";
+		};
+		A5A17AB5D5CE237717E3156AFC248586 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02842B53735CD1702AECDFA7F0EAD445 /* idHead.png */,
+				6AC7951143DDDFC2D7B4F2858CD0CF52 /* idHead@2x.png */,
+				0A3BE9325028622D15A894DC8E09C509 /* idHead@3x.png */,
+				F94F42B0C3DECD4F817B1800DE9AE7A6 /* idIcon.png */,
+				36FFAB53DC24C7313D28FC32D17A2718 /* idIcon@2x.png */,
+				7AF30C56449D7453F540604F990B0775 /* idIcon@3x.png */,
+				455D6FBBF84C07CB5A0B3F1DD41804E5 /* nav_btn_back.png */,
+				7041E8DA4F41AC6BC773996AAF9FAE06 /* nav_btn_back@2x.png */,
+				C0EFF16BB710D71EB08A541786FF091C /* nav_btn_back@3x.png */,
+				B8E73CFCB24093DC26B63E13A9BB6790 /* photograph@2x.png */,
+				D90856CFF9974B6FEA9F0999FA63E2D8 /* photograph@3x.png */,
+				92F12352F501883B970FDBDECB37E7A4 /* tips_icon@2x.png */,
+				5DE8510B9080DB31B64CA633420F5853 /* tips_icon@3x.png */,
 			);
 			name = Resources;
-			path = OCRToolSDK/Resources;
 			sourceTree = "<group>";
 		};
 		A82AC8B76E93DFF651B1816D33637A04 /* Pods-OCRToolSDK_Tests */ = {
@@ -210,21 +218,6 @@
 			path = "Target Support Files/Pods-OCRToolSDK_Tests";
 			sourceTree = "<group>";
 		};
-		BEAEFF2FD1ED4E8D6016DEC09EDD34CB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FAC183A3CD8C0AF426D9CFCDA83DEA2C /* OCRToolSDK.modulemap */,
-				216DA7BAC9D0A3E648936EDAA20BD062 /* OCRToolSDK-dummy.m */,
-				B8AEE793B45116F6751D8A9EA878E696 /* OCRToolSDK-Info.plist */,
-				037A5AACD17EF6FB1CFEB1D757FE41E8 /* OCRToolSDK-prefix.pch */,
-				B7439A743D3152BE106A96FA0469FA57 /* OCRToolSDK-umbrella.h */,
-				A0969DA47A8A815602053DEA94406357 /* OCRToolSDK.debug.xcconfig */,
-				76494B87AF3EE9BF5CFEA778DD4C7B95 /* OCRToolSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OCRToolSDK";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,33 +226,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C9F1E7DF69A47935B50A1A45811A3D81 /* Products */ = {
+		C5207577F3064DE22781264D0ADF1CD0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D4CC68F06FEAB3C8E0BB2B1C1FB546C2 /* OCRToolSDK.framework */,
-				98F5AE7CACC7D29FAEDF5E2DC88A974A /* Pods_OCRToolSDK_Example.framework */,
-				E04ACB7EBAFC388710B4328F09F2F0CE /* Pods_OCRToolSDK_Tests.framework */,
+				5D5AC05DAB264AA289D9D6331B6AE875 /* OCRToolSDK */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CA1494788047324366D602BB2F97BC4B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				27D54FBD435BF27577ABDFAE76C83EF5 /* LICENSE */,
-				6999BD0D3612921B446E48C189175A73 /* OCRToolSDK.podspec */,
-				B08F89E0396185E2C890C1E8C0E6EBF7 /* README.md */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6F7AC8770CA0818971EB4F0D7CCEE434 /* Development Pods */,
+				C5207577F3064DE22781264D0ADF1CD0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C9F1E7DF69A47935B50A1A45811A3D81 /* Products */,
+				64061DC579ACF7BC96E4764AD5E7A305 /* Products */,
 				70F954EB596E998B2F73450EB6E7D245 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -275,14 +256,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		13A6C3DE03901AB65A57C7C4CD84B979 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BB2A5568903B9C1B3D1F413718FC7CB /* OCRToolSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9B2F9CB6F112874A04C93D299E42E26C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,24 +292,6 @@
 			name = "Pods-OCRToolSDK_Tests";
 			productName = "Pods-OCRToolSDK_Tests";
 			productReference = E04ACB7EBAFC388710B4328F09F2F0CE /* Pods_OCRToolSDK_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		25F83910867536E9705199EE7E5184B7 /* OCRToolSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3EA96A946A6702A89E86B800838D414 /* Build configuration list for PBXNativeTarget "OCRToolSDK" */;
-			buildPhases = (
-				13A6C3DE03901AB65A57C7C4CD84B979 /* Headers */,
-				9F0BC92EF2404D3956CB82C79D97275D /* Sources */,
-				1ABAD2A417D466F8A03385BC0D1FC1C5 /* Frameworks */,
-				20CFE411824585DCA0C70A17A7DCE9C0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OCRToolSDK;
-			productName = OCRToolSDK;
-			productReference = D4CC68F06FEAB3C8E0BB2B1C1FB546C2 /* OCRToolSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5B88A416096F425062D1B1E30BE4C634 /* Pods-OCRToolSDK_Example */ = {
@@ -376,7 +331,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C9F1E7DF69A47935B50A1A45811A3D81 /* Products */;
+			productRefGroup = 64061DC579ACF7BC96E4764AD5E7A305 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -388,26 +343,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20CFE411824585DCA0C70A17A7DCE9C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B07E75F2580D5AB008DCD58 /* tips_icon@3x.png in Resources */,
-				9B07E7662580D5AB008DCD58 /* idHead@3x.png in Resources */,
-				9B07E75D2580D5AB008DCD58 /* nav_btn_back@2x.png in Resources */,
-				9B07E7642580D5AB008DCD58 /* photograph@2x.png in Resources */,
-				9B07E75A2580D5AB008DCD58 /* idIcon@3x.png in Resources */,
-				9B07E7612580D5AB008DCD58 /* nav_btn_back.png in Resources */,
-				9B07E7652580D5AB008DCD58 /* idHead@2x.png in Resources */,
-				9B07E7622580D5AB008DCD58 /* idHead.png in Resources */,
-				9B07E75E2580D5AB008DCD58 /* tips_icon@2x.png in Resources */,
-				9B07E75C2580D5AB008DCD58 /* idIcon@2x.png in Resources */,
-				9B07E7632580D5AB008DCD58 /* photograph@3x.png in Resources */,
-				9B07E75B2580D5AB008DCD58 /* idIcon.png in Resources */,
-				9B07E7602580D5AB008DCD58 /* nav_btn_back@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		41C5A84D4C530921A09ACE90C0184555 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,14 +360,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9F0BC92EF2404D3956CB82C79D97275D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F72CD40EB9326F7039C6F420CE7C86D2 /* OCRToolSDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B60A457BC9383CD6EF9E8CAA0E7B265C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,69 +394,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		046D464E4C44F8E7F4ED3E9EC27AA76C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76494B87AF3EE9BF5CFEA778DD4C7B95 /* OCRToolSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OCRToolSDK/OCRToolSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCRToolSDK/OCRToolSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OCRToolSDK/OCRToolSDK.modulemap";
-				PRODUCT_MODULE_NAME = OCRToolSDK;
-				PRODUCT_NAME = OCRToolSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		842D738A1F9343B0F08660376DE53A84 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0969DA47A8A815602053DEA94406357 /* OCRToolSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OCRToolSDK/OCRToolSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCRToolSDK/OCRToolSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OCRToolSDK/OCRToolSDK.modulemap";
-				PRODUCT_MODULE_NAME = OCRToolSDK;
-				PRODUCT_NAME = OCRToolSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -583,9 +447,24 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		904E89CACE6E54A1C464AE519EAFCB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4620F6AF5D3D085F23944997778A0B /* OCRToolSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -653,9 +532,22 @@
 			};
 			name = Debug;
 		};
+		A5D712796988852C06F868CF85E69BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988355695794EB7D8C4128C1E4BBDBE9 /* OCRToolSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		C4F8C0859B812AA0F1A3E5D2C16465F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1A00320664A13566D978711F6DA086C /* Pods-OCRToolSDK_Example.release.xcconfig */;
+			baseConfigurationReference = AB400720B346D9FB23B38800B7150D26 /* Pods-OCRToolSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -689,7 +581,7 @@
 		};
 		D3A38F32F238F32595C2F05D9908A9D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB6B2B8712A7D2F8E7DAD81F34185F54 /* Pods-OCRToolSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = EFCD8A01BBF6F47C95DFD318160C10E4 /* Pods-OCRToolSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -817,11 +709,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3EA96A946A6702A89E86B800838D414 /* Build configuration list for PBXNativeTarget "OCRToolSDK" */ = {
+		CFA5C90179A05D0973184DC427A564A1 /* Build configuration list for PBXAggregateTarget "OCRToolSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				842D738A1F9343B0F08660376DE53A84 /* Debug */,
-				046D464E4C44F8E7F4ED3E9EC27AA76C /* Release */,
+				A5D712796988852C06F868CF85E69BDD /* Debug */,
+				904E89CACE6E54A1C464AE519EAFCB09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

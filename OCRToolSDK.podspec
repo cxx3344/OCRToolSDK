@@ -30,8 +30,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'OCRToolSDK/Classes/**/*'
-
   s.resources = "OCRToolSDK/Resources/*.png"
 
   s.ios.vendored_frameworks = 'OCRToolSDK/OCRToolSDK.framework'

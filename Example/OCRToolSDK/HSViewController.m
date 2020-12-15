@@ -28,7 +28,7 @@ HSIDCardScannerViewControllerDelegate
 
 
 - (IBAction)frontBtnAction:(UIButton *)sender {
-    [self takePicActionWithType:1];
+    [self takePicActionWithType:2];
 }
 
 

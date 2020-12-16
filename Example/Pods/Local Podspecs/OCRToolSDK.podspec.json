@@ -1,8 +1,8 @@
 {
   "name": "OCRToolSDK",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "身份证识别工具 --OCRToolSDK.",
-  "description": "1.OCR解析规则梳理\n2.新增OCR上传信息大写格式化",
+  "description": "1.关于证书问题处理",
   "homepage": "https://github.com/cxx3344/OCRToolSDK",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/cxx3344/OCRToolSDK.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"

@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,18 +20,89 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RI5-dM-SZb">
-                                <rect key="frame" x="164" y="108" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RI5-dM-SZb">
+                                <rect key="frame" x="164.5" y="189" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="Hyu-Ym-ntw"/>
+                                    <constraint firstAttribute="height" constant="30" id="Wfz-QJ-sVp"/>
+                                </constraints>
                                 <state key="normal" title="拍正面"/>
                                 <connections>
                                     <action selector="frontBtnAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="9HY-RI-A6r"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q0o-NL-osc">
+                                <rect key="frame" x="87.5" y="52" width="200" height="127"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Lex-Ep-dTD"/>
+                                    <constraint firstAttribute="width" secondItem="Q0o-NL-osc" secondAttribute="height" multiplier="1.574" id="Z9E-4G-izs"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAR-M7-oRQ">
+                                <rect key="frame" x="164.5" y="366" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="4ez-MX-s00"/>
+                                    <constraint firstAttribute="height" constant="30" id="6vj-wH-G5f"/>
+                                </constraints>
+                                <state key="normal" title="拍背面"/>
+                                <connections>
+                                    <action selector="backBtnAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="h7t-mp-ZVC"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BpV-3V-v3j">
+                                <rect key="frame" x="87.5" y="229" width="200" height="127"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0Um-EL-AR6"/>
+                                    <constraint firstAttribute="width" secondItem="BpV-3V-v3j" secondAttribute="height" multiplier="1.574" id="OYF-CA-ARx"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="姓名" borderStyle="roundedRect" placeholder="请输入姓名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xem-Zv-JYc">
+                                <rect key="frame" x="16" y="401" width="343" height="34"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="wy8-OC-OcC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="身份证号" borderStyle="roundedRect" placeholder="请输入身份证号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hbC-Xf-HSD">
+                                <rect key="frame" x="16" y="440" width="343" height="34"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="8f0-6U-vfY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BpV-3V-v3j" firstAttribute="width" secondItem="BpV-3V-v3j" secondAttribute="height" multiplier="1.574" id="1dm-OU-ijO"/>
+                            <constraint firstItem="Xem-Zv-JYc" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="2oG-CK-5YP"/>
+                            <constraint firstItem="hbC-Xf-HSD" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="GKu-Q0-V9R"/>
+                            <constraint firstItem="hbC-Xf-HSD" firstAttribute="top" secondItem="Xem-Zv-JYc" secondAttribute="bottom" constant="5" id="HCx-sf-zYK"/>
+                            <constraint firstItem="hbC-Xf-HSD" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="MEW-tr-48e"/>
+                            <constraint firstItem="RI5-dM-SZb" firstAttribute="centerX" secondItem="Q0o-NL-osc" secondAttribute="centerX" id="Z8n-mH-XxP"/>
+                            <constraint firstItem="Q0o-NL-osc" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="ZrD-m7-e2s"/>
+                            <constraint firstItem="XAR-M7-oRQ" firstAttribute="centerX" secondItem="BpV-3V-v3j" secondAttribute="centerX" id="aCz-pe-IEt"/>
+                            <constraint firstItem="Q0o-NL-osc" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" symbolic="YES" id="c7w-fl-eyg"/>
+                            <constraint firstItem="Xem-Zv-JYc" firstAttribute="top" secondItem="XAR-M7-oRQ" secondAttribute="bottom" constant="5" id="cFp-hh-XS3"/>
+                            <constraint firstItem="BpV-3V-v3j" firstAttribute="centerX" secondItem="Q0o-NL-osc" secondAttribute="centerX" id="gEv-Wo-Vc4"/>
+                            <constraint firstItem="Xem-Zv-JYc" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="h4d-7h-6Bp"/>
+                            <constraint firstItem="RI5-dM-SZb" firstAttribute="top" secondItem="Q0o-NL-osc" secondAttribute="bottom" constant="10" id="mMn-45-I64"/>
+                            <constraint firstItem="XAR-M7-oRQ" firstAttribute="top" secondItem="BpV-3V-v3j" secondAttribute="bottom" constant="10" id="oYE-eg-Piy"/>
+                            <constraint firstItem="BpV-3V-v3j" firstAttribute="top" secondItem="RI5-dM-SZb" secondAttribute="bottom" constant="10" id="yKx-qw-v0f"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jve-MX-RyO"/>
+                    <connections>
+                        <outlet property="backIV" destination="BpV-3V-v3j" id="aam-mm-B7X"/>
+                        <outlet property="frontIV" destination="Q0o-NL-osc" id="epd-vs-r6W"/>
+                        <outlet property="idCardTF" destination="hbC-Xf-HSD" id="o3h-Xx-aLR"/>
+                        <outlet property="nameTF" destination="Xem-Zv-JYc" id="WUD-9g-NjX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,4 +127,9 @@
             <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

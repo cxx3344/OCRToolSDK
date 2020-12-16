@@ -7,12 +7,20 @@
 //
 
 #import "HSViewController.h"
+#import <Photos/Photos.h>
 #import <OCRToolSDK/OCRToolSDK.h>
 @interface HSViewController ()
 <
 HSIDCardScannerViewControllerDelegate
 >
 
+@property (weak, nonatomic) IBOutlet UIImageView *frontIV;
+
+@property (weak, nonatomic) IBOutlet UIImageView *backIV;
+
+@property (weak, nonatomic) IBOutlet UITextField *nameTF;
+
+@property (weak, nonatomic) IBOutlet UITextField *idCardTF;
 
 @end
 
@@ -28,6 +36,10 @@ HSIDCardScannerViewControllerDelegate
 
 
 - (IBAction)frontBtnAction:(UIButton *)sender {
+    [self takePicActionWithType:1];
+}
+
+- (IBAction)backBtnAction:(UIButton *)sender {
     [self takePicActionWithType:2];
 }
 
@@ -52,11 +64,14 @@ HSIDCardScannerViewControllerDelegate
 
 #pragma mark -- HSIDCardScannerViewControllerDelegate
 - (void)idCardScannerInfoImage:(UIImage*)image result:(nonnull HSIDCardScannerInfo *)result{
+    [self saveImageToLocalWithImage:image];
     UIImage *scaleImage = image;//[UIImage imageCompressForWidth:image targetWidth:320];
     NSString *resultStr = nil;
     if (selectIndex == 1) {
+        self.frontIV.image = scaleImage;
         resultStr = [NSString stringWithFormat:@"姓名:%@\n号码:%@\n详细:%@\n",result.name,result.idCardNum,[self stringFromDict:result.allInfo]];
     }else{
+        self.backIV.image = scaleImage;
         resultStr = [NSString stringWithFormat:@"开始:%@\n结束:%@\n详细:%@\n",result.validStartDate,result.validEndDate,[self stringFromDict:result.allInfo]];
     }
     NSLog(@"名称: %@ \n身份证: %@ \n有效期(始): %@ \n有效期(终): %@",result.name,result.idCardNum,result.validStartDate,result.validEndDate);
@@ -104,5 +119,21 @@ HSIDCardScannerViewControllerDelegate
     }
     return dic;
 }
+
+///保存图片到本地
+- (void)saveImageToLocalWithImage:(UIImage*)photoImage{
+    //保存图片到【相机胶卷】
+    /// 异步执行修改操作
+    [[PHPhotoLibrary sharedPhotoLibrary]performChanges:^{
+        [PHAssetChangeRequest creationRequestForAssetFromImage:photoImage];
+    } completionHandler:^(BOOL success, NSError * _Nullable error) {
+        if (error) {
+            NSLog(@"%@",@"保存失败");
+        } else {
+            NSLog(@"%@",@"保存成功");
+        }
+    }];
+}
+
 
 @end

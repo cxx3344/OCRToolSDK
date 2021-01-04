@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/DeviceUtil.h</key>
+		<data>
+		iLIo1bhlfoAgJNEWAXu7NlTeF9A=
+		</data>
 		<key>Headers/HSBaseInfo.h</key>
 		<data>
 		Ljg9UbwuZm9FhCZ/f/rjW9e2cqQ=
@@ -18,7 +22,7 @@
 		</data>
 		<key>Headers/HSIDCardQualityDefineHeader.h</key>
 		<data>
-		OWd+pfXP7mH/cf73ct4mn7WapyA=
+		GC3WEBdyg6j8RD3edfgq/4qfY2s=
 		</data>
 		<key>Headers/HSIDCardQualityScanEnumHeader.h</key>
 		<data>
@@ -46,7 +50,7 @@
 		</data>
 		<key>Headers/HSIDCardScannerManager.h</key>
 		<data>
-		A8afRV2gbp7aXBO7+94KIG0Gvh8=
+		u7hCoWfWNAzdMjh3iCmF0xSf+70=
 		</data>
 		<key>Headers/HSIDCardScannerViewController.h</key>
 		<data>
@@ -75,6 +79,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/DeviceUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iLIo1bhlfoAgJNEWAXu7NlTeF9A=
+			</data>
+			<key>hash2</key>
+			<data>
+			HxHl5wl19uGy8brxt6VcfllafBVA4jsuBvrZwXbKrqo=
+			</data>
+		</dict>
 		<key>Headers/HSBaseInfo.h</key>
 		<dict>
 			<key>hash</key>
@@ -112,11 +127,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OWd+pfXP7mH/cf73ct4mn7WapyA=
+			GC3WEBdyg6j8RD3edfgq/4qfY2s=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z1R0wMUocdmnuLgOE0VlB/SQFsj3iZ9f0B0KX6duZvk=
+			FOwev+kTvw8uR6uu+F3mBoHd/B35lVblA8VEgylCoBc=
 			</data>
 		</dict>
 		<key>Headers/HSIDCardQualityScanEnumHeader.h</key>
@@ -189,11 +204,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A8afRV2gbp7aXBO7+94KIG0Gvh8=
+			u7hCoWfWNAzdMjh3iCmF0xSf+70=
 			</data>
 			<key>hash2</key>
 			<data>
-			Onu2tH3jC20dRoKF3xgFUsHTZIshDUxldzmGiErDkxg=
+			6BxhmDHlaXjNS90zWfLWvw62bYiGru+4+kMyoJLt+S8=
 			</data>
 		</dict>
 		<key>Headers/HSIDCardScannerViewController.h</key>

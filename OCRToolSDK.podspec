@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCRToolSDK'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '身份证识别工具 --OCRToolSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  1.修复识别不成功时,"重拍"按钮显示问题
-
+  1.监控上传新增三个字段
+  2.背面识别请求,也添加姓名及身份证信息上传
+  3.修改监控上传字段operatingSystem的取值,改为自动获取手机型号_系统版本号格式
                        DESC
 
   s.homepage         = 'https://github.com/cxx3344/OCRToolSDK'

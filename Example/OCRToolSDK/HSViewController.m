@@ -32,6 +32,10 @@ HSIDCardScannerViewControllerDelegate
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    NSLog(@"SDKVersion: %@",HSIDCardVersion);
+    self.nameTF.text = @"iOS测试姓名";
+    self.idCardTF.text = @"iOS测试身份证";
 }
 
 
@@ -48,7 +52,7 @@ HSIDCardScannerViewControllerDelegate
 - (void)takePicActionWithType:(NSInteger)type{
     selectIndex = type;
 
-    HSIDCardScannerViewController *vc = [[HSIDCardScannerViewController alloc] initWithName:@"123" idCardNum:@"321"];
+    HSIDCardScannerViewController *vc = [[HSIDCardScannerViewController alloc] initWithName:SAFE_STRING(self.nameTF.text) idCardNum:SAFE_STRING(self.idCardTF.text)];
     vc.idCardScannerViewDelegate = self;
     //设置OCR使用环境
     vc.networkType = HSIDOCRNetworkStateTestType;

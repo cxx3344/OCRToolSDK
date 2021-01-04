@@ -29,6 +29,8 @@ typedef enum : NSUInteger {
 @property (nonatomic, weak) id<HSIDCardScannerManagerDelegate> delegate;
 /** 网络环境 */
 @property (nonatomic, assign) HSNetworkStateType  networkType;
+/** 是否是正面 */
+@property (nonatomic, assign) BOOL  isFront;
 
 /**
  * 便利初始化,非单例模式

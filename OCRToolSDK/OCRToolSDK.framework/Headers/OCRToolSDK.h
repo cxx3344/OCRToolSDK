@@ -31,4 +31,8 @@ FOUNDATION_EXPORT const unsigned char OCRToolSDKVersionString[];
 #import <OCRToolSDK/HSIDCardScannerManager.h>
 #import <OCRToolSDK/HSIDCardScannerInfo.h>
 #import <OCRToolSDK/HSBaseInfo.h>
+#import <OCRToolSDK/HSUtil.h>
+#import <OCRToolSDK/WebAPI.h>
+#import <OCRToolSDK/HSScannerItemInfo.h>
+
 

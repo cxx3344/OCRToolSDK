@@ -99,69 +99,67 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0315E51CE19D73041DC5277AD3572DB6 /* idIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@2x.png"; path = "OCRToolSDK/Resources/idIcon@2x.png"; sourceTree = "<group>"; };
+		0183C40842E2DB03AD045F6F2EDD828A /* idIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@3x.png"; path = "OCRToolSDK/Resources/idIcon@3x.png"; sourceTree = "<group>"; };
 		03E5CA8826EB5A3FE6D5E29B2361BF62 /* TensorFlowLiteObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteObjC.release.xcconfig; sourceTree = "<group>"; };
 		04E893D62575D683A03216BC1FCD0E93 /* TensorFlowLiteObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteObjC.debug.xcconfig; sourceTree = "<group>"; };
 		06FF04CD8116DFAD56727BC5ECDCF742 /* TensorFlowLiteObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorFlowLiteObjC-prefix.pch"; sourceTree = "<group>"; };
+		090DC53AEDBC814CE65E4F26FA5AF4B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0D7E8BD8D37612BC2B053C146814E3A6 /* TensorFlowLiteC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TensorFlowLiteC.framework; path = Frameworks/TensorFlowLiteC.framework; sourceTree = "<group>"; };
-		0E66047D424A2D06C8798DA9CD9CA82B /* photograph@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@3x.png"; path = "OCRToolSDK/Resources/photograph@3x.png"; sourceTree = "<group>"; };
-		0FB43A70F7E539487C0650BB6F44534B /* tips_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@3x.png"; path = "OCRToolSDK/Resources/tips_icon@3x.png"; sourceTree = "<group>"; };
 		129DDEDE1AE285715868971FDC5F8AF4 /* Pods-OCRToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1D4F721184FCC6326C1D1C3F5FA0E3AE /* idHead@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@2x.png"; path = "OCRToolSDK/Resources/idHead@2x.png"; sourceTree = "<group>"; };
-		1E7916D4DA993BBE4FDAE390A1F61EBC /* output_graph_uint8.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = output_graph_uint8.tflite; path = OCRToolSDK/Resources/output_graph_uint8.tflite; sourceTree = "<group>"; };
+		14DAF4AFE2B98A7C7DFD23ABE6BEB5A2 /* nav_btn_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@2x.png"; path = "OCRToolSDK/Resources/nav_btn_back@2x.png"; sourceTree = "<group>"; };
+		14F7CF153988A4C854B74A22B0FBFFAE /* 2021031602_uint8.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = 2021031602_uint8.tflite; path = OCRToolSDK/Resources/2021031602_uint8.tflite; sourceTree = "<group>"; };
 		1E883946728295D2B82DB14E24FA85E8 /* TFLQuantizationParameters+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TFLQuantizationParameters+Internal.h"; path = "tensorflow/lite/experimental/objc/sources/TFLQuantizationParameters+Internal.h"; sourceTree = "<group>"; };
-		2C35672C9D709DD1199F3182CD178223 /* nav_btn_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@3x.png"; path = "OCRToolSDK/Resources/nav_btn_back@3x.png"; sourceTree = "<group>"; };
-		2F8E2E04C1224508D4FBC53953F3429F /* idIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idIcon.png; path = OCRToolSDK/Resources/idIcon.png; sourceTree = "<group>"; };
+		2A0A3F86AB06B70A37F18A0C2C08AC95 /* idHead.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idHead.png; path = OCRToolSDK/Resources/idHead.png; sourceTree = "<group>"; };
+		3192F586A9F7FBCB64A63E45DF6EECC4 /* output_labels_card.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = output_labels_card.txt; path = OCRToolSDK/Resources/output_labels_card.txt; sourceTree = "<group>"; };
 		37E99C8724A20876B579F22A5CF8ABFE /* Pods-OCRToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		394DA6A30C444F28CA9DE0032691AAFD /* photograph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@2x.png"; path = "OCRToolSDK/Resources/photograph@2x.png"; sourceTree = "<group>"; };
 		3A865A326432AEB1AD8DD7276BFE11C8 /* Pods-OCRToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		419F0EFD6BB3F2828112228C255A1254 /* idIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@3x.png"; path = "OCRToolSDK/Resources/idIcon@3x.png"; sourceTree = "<group>"; };
+		4064C12685C806F56895646CDE923A25 /* tips_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@2x.png"; path = "OCRToolSDK/Resources/tips_icon@2x.png"; sourceTree = "<group>"; };
+		4214DBE557BDCABBF2ED4B1ABCCC924F /* nav_btn_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@3x.png"; path = "OCRToolSDK/Resources/nav_btn_back@3x.png"; sourceTree = "<group>"; };
 		47B2964F377D8FE41CC9D767759B5123 /* TFLDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLDelegate.m; path = tensorflow/lite/experimental/objc/sources/TFLDelegate.m; sourceTree = "<group>"; };
+		480AAE1C288DF32C550635F9E8036535 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCRToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4CFAA7A2B7BA310B5066113A026D0018 /* TFLErrorUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLErrorUtil.m; path = tensorflow/lite/experimental/objc/sources/TFLErrorUtil.m; sourceTree = "<group>"; };
 		4D2209DCBD1292808CB35BC676D7432C /* TFLQuantizationParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLQuantizationParameters.h; path = tensorflow/lite/experimental/objc/apis/TFLQuantizationParameters.h; sourceTree = "<group>"; };
 		4E6D3C44E69DCFC2F57FC78285EF7C68 /* TensorFlowLiteC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteC.debug.xcconfig; sourceTree = "<group>"; };
 		55336FCF4B124DF4B0AE1108A32D4A4C /* TFLInterpreter+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TFLInterpreter+Internal.h"; path = "tensorflow/lite/experimental/objc/sources/TFLInterpreter+Internal.h"; sourceTree = "<group>"; };
-		568A4D9952025C1EB2D1CFC54BBB94E6 /* OCRToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCRToolSDK.framework; path = OCRToolSDK/OCRToolSDK.framework; sourceTree = "<group>"; };
 		5849130B08B40D5402F631D5671AF6DF /* TFLDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLDelegate.h; path = tensorflow/lite/experimental/objc/apis/TFLDelegate.h; sourceTree = "<group>"; };
 		5C078CC26ECAF3C2D5105702DB5DFB94 /* Pods-OCRToolSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCRToolSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		5D0A42F1C2E836DF629AA25039B2A193 /* Pods-OCRToolSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		667DE55D94D66737F701714379F21C3F /* TFLTensor+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TFLTensor+Internal.h"; path = "tensorflow/lite/experimental/objc/sources/TFLTensor+Internal.h"; sourceTree = "<group>"; };
-		693FE62C433255BB29E5B217EAD6811C /* OCRToolSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.debug.xcconfig; sourceTree = "<group>"; };
-		6C66A5498024AE1A71E8D3A7D4B32DD3 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCRToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		706440DAEDDF335F21E043B986674D23 /* OCRToolSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.release.xcconfig; sourceTree = "<group>"; };
 		7345B10E38A66E86B6436104F9076C39 /* Pods-OCRToolSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		798EBB7F0E60581BB839EC4B63CB82AD /* OCRToolSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.release.xcconfig; sourceTree = "<group>"; };
 		7C912A05B7975AFECEBDD12122282722 /* TFLErrorUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLErrorUtil.h; path = tensorflow/lite/experimental/objc/sources/TFLErrorUtil.h; sourceTree = "<group>"; };
-		802CC3774B69F044674D47CD2D8141E8 /* idHead@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@3x.png"; path = "OCRToolSDK/Resources/idHead@3x.png"; sourceTree = "<group>"; };
-		82A04D7CD6FAE537C80466F8051FBA71 /* nav_btn_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@2x.png"; path = "OCRToolSDK/Resources/nav_btn_back@2x.png"; sourceTree = "<group>"; };
-		8315C50953E5AAED5E6AAD009CFF11D4 /* nav_btn_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = nav_btn_back.png; path = OCRToolSDK/Resources/nav_btn_back.png; sourceTree = "<group>"; };
-		8B8AEE15C4925E2AB98E8F8B26F5C670 /* photograph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@2x.png"; path = "OCRToolSDK/Resources/photograph@2x.png"; sourceTree = "<group>"; };
 		8D394054906D46BCC38984AB8D7C37F1 /* Pods-OCRToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8F4DE50A86825AF3E9C349665648AAAF /* tips_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@2x.png"; path = "OCRToolSDK/Resources/tips_icon@2x.png"; sourceTree = "<group>"; };
+		8E3E014BD68A5B9A47D244EA2A642E3A /* OCRToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCRToolSDK.framework; path = OCRToolSDK/OCRToolSDK.framework; sourceTree = "<group>"; };
 		9031979E705D4F9A577E6DC997448D80 /* Pods-OCRToolSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRToolSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95676F20394535C7E8A9832031193A49 /* TFLInterpreter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = TFLInterpreter.mm; path = tensorflow/lite/experimental/objc/sources/TFLInterpreter.mm; sourceTree = "<group>"; };
-		963181DC000295BBDACED998CF50D4BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9739CA20DA0628D08980099E66DEBB66 /* TFLTensor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLTensor.m; path = tensorflow/lite/experimental/objc/sources/TFLTensor.m; sourceTree = "<group>"; };
-		97AECB5160032B9B7392261F447E7E4F /* black_model_uint8.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = black_model_uint8.tflite; path = OCRToolSDK/Resources/black_model_uint8.tflite; sourceTree = "<group>"; };
 		9822D51CF97E98CD9D336A77BC3D68E5 /* TensorFlowLiteC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteC.release.xcconfig; sourceTree = "<group>"; };
 		98ED1A39CA833AF09C04E2F1D2F3923F /* TFLTensorFlowLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLTensorFlowLite.h; path = tensorflow/lite/experimental/objc/apis/TFLTensorFlowLite.h; sourceTree = "<group>"; };
 		98F5AE7CACC7D29FAEDF5E2DC88A974A /* libPods-OCRToolSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OCRToolSDK_Example.a"; path = "libPods-OCRToolSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EBFE2E499154A8FFB70C3845F2C4EA6 /* c_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = c_api.h; path = tensorflow/lite/c/c_api.h; sourceTree = "<group>"; };
+		9EF702B13CF62340526113BCEADA38F1 /* OCRToolSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.debug.xcconfig; sourceTree = "<group>"; };
+		9F24E30730C2D889BEBF3E3E74399DE7 /* photograph@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@3x.png"; path = "OCRToolSDK/Resources/photograph@3x.png"; sourceTree = "<group>"; };
+		9F45AA9D35942B3A3BE76E54D8A52347 /* idHead@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@3x.png"; path = "OCRToolSDK/Resources/idHead@3x.png"; sourceTree = "<group>"; };
 		AAC58C21146271642D25F57215EC93C7 /* TFLTensor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLTensor.h; path = tensorflow/lite/experimental/objc/apis/TFLTensor.h; sourceTree = "<group>"; };
 		ACDA8956E88079DF17BA1D80A8D01D49 /* TensorFlowLiteObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TensorFlowLiteObjC-dummy.m"; sourceTree = "<group>"; };
 		B30AF29C3010D6E1398931DCF7286340 /* libTensorFlowLiteObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTensorFlowLiteObjC.a; path = libTensorFlowLiteObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70BE1832ECAFC5936218B27E1DAC747 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = tensorflow/lite/c/common.h; sourceTree = "<group>"; };
 		C0059B7DE00CB17FFCB7EABC991CCB63 /* Pods-OCRToolSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRToolSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		C0502BDB7CDE85F611A54F4272FB9AD2 /* idHead@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@2x.png"; path = "OCRToolSDK/Resources/idHead@2x.png"; sourceTree = "<group>"; };
 		C0B65BAC45360EA0EBFBC2A0E62C915C /* TFLQuantizationParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLQuantizationParameters.m; path = tensorflow/lite/experimental/objc/sources/TFLQuantizationParameters.m; sourceTree = "<group>"; };
+		C44BEFF8C34C41EF99682449D44DCF01 /* idIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idIcon.png; path = OCRToolSDK/Resources/idIcon.png; sourceTree = "<group>"; };
+		C5EAF60C39E060F8CDD3F3D898BFDF92 /* tips_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@3x.png"; path = "OCRToolSDK/Resources/tips_icon@3x.png"; sourceTree = "<group>"; };
+		C653AE8BBC454D1F0EEBF671D850E829 /* idIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@2x.png"; path = "OCRToolSDK/Resources/idIcon@2x.png"; sourceTree = "<group>"; };
 		CA54ACFD748E998B95FF5715FA4F0B7E /* TFLInterpreter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLInterpreter.h; path = tensorflow/lite/experimental/objc/apis/TFLInterpreter.h; sourceTree = "<group>"; };
-		CBCEFA10B837A17BC25A54541D95DD91 /* idHead.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idHead.png; path = OCRToolSDK/Resources/idHead.png; sourceTree = "<group>"; };
-		DF4A4EB126A44921CAA2128F52DA6212 /* output_labels_card.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = output_labels_card.txt; path = OCRToolSDK/Resources/output_labels_card.txt; sourceTree = "<group>"; };
 		E04ACB7EBAFC388710B4328F09F2F0CE /* libPods-OCRToolSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OCRToolSDK_Tests.a"; path = "libPods-OCRToolSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53B26949A7A5CFD541510D2D7B9627F /* xnnpack_delegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xnnpack_delegate.h; path = tensorflow/lite/delegates/xnnpack/xnnpack_delegate.h; sourceTree = "<group>"; };
-		E65D7C422CED351DF20F0553FDA41F95 /* 2021031602_uint8.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = 2021031602_uint8.tflite; path = OCRToolSDK/Resources/2021031602_uint8.tflite; sourceTree = "<group>"; };
-		E7ADEB2BBBEF6738059959579ECFC820 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E9188ED27E5DF5602B1C4EB3F80ABE4F /* Pods-OCRToolSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRToolSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB98CBBA039F92E5F7A88894DDA42044 /* TFLInterpreterOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLInterpreterOptions.m; path = tensorflow/lite/experimental/objc/sources/TFLInterpreterOptions.m; sourceTree = "<group>"; };
+		EDDB3D0440D2B930E1F5BED7ED2D5460 /* nav_btn_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = nav_btn_back.png; path = OCRToolSDK/Resources/nav_btn_back.png; sourceTree = "<group>"; };
 		EE3FEE9E78C0F053E78F21D9A7FB2CF0 /* Pods-OCRToolSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRToolSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		F30EB9ECB01A26474189E833C631A74B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F5BF73FF3C081DD45F29559F6A7FE4AB /* TFLInterpreterOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLInterpreterOptions.h; path = tensorflow/lite/experimental/objc/apis/TFLInterpreterOptions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,38 +210,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29F7AC0F8F9862CF7D099B15D38BF0D6 /* OCRToolSDK */ = {
+		3B2DC83BF1D724D1C2A542F2C22F0776 /* OCRToolSDK */ = {
 			isa = PBXGroup;
 			children = (
-				DBB0CE6FE17B685BF8059E2A677C22F8 /* Frameworks */,
-				6E6D9EF06D255B9D049FD566744E3802 /* Pod */,
-				3BCA32C70F296D80FAEA1E10D86ECD9D /* Resources */,
-				C74CDADE2840B11A93BE3C513293D2D5 /* Support Files */,
+				DCD424D05F2055676D03C5F233054865 /* Frameworks */,
+				580F367B85A221ABFB68B734ECEC2751 /* Pod */,
+				4576A19CD948206B1958EDD3885A0D6D /* Resources */,
+				4E434AAD61500E1D87E4164E973BC729 /* Support Files */,
 			);
 			name = OCRToolSDK;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3BCA32C70F296D80FAEA1E10D86ECD9D /* Resources */ = {
+		4576A19CD948206B1958EDD3885A0D6D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E65D7C422CED351DF20F0553FDA41F95 /* 2021031602_uint8.tflite */,
-				97AECB5160032B9B7392261F447E7E4F /* black_model_uint8.tflite */,
-				CBCEFA10B837A17BC25A54541D95DD91 /* idHead.png */,
-				1D4F721184FCC6326C1D1C3F5FA0E3AE /* idHead@2x.png */,
-				802CC3774B69F044674D47CD2D8141E8 /* idHead@3x.png */,
-				2F8E2E04C1224508D4FBC53953F3429F /* idIcon.png */,
-				0315E51CE19D73041DC5277AD3572DB6 /* idIcon@2x.png */,
-				419F0EFD6BB3F2828112228C255A1254 /* idIcon@3x.png */,
-				8315C50953E5AAED5E6AAD009CFF11D4 /* nav_btn_back.png */,
-				82A04D7CD6FAE537C80466F8051FBA71 /* nav_btn_back@2x.png */,
-				2C35672C9D709DD1199F3182CD178223 /* nav_btn_back@3x.png */,
-				1E7916D4DA993BBE4FDAE390A1F61EBC /* output_graph_uint8.tflite */,
-				DF4A4EB126A44921CAA2128F52DA6212 /* output_labels_card.txt */,
-				8B8AEE15C4925E2AB98E8F8B26F5C670 /* photograph@2x.png */,
-				0E66047D424A2D06C8798DA9CD9CA82B /* photograph@3x.png */,
-				8F4DE50A86825AF3E9C349665648AAAF /* tips_icon@2x.png */,
-				0FB43A70F7E539487C0650BB6F44534B /* tips_icon@3x.png */,
+				14F7CF153988A4C854B74A22B0FBFFAE /* 2021031602_uint8.tflite */,
+				2A0A3F86AB06B70A37F18A0C2C08AC95 /* idHead.png */,
+				C0502BDB7CDE85F611A54F4272FB9AD2 /* idHead@2x.png */,
+				9F45AA9D35942B3A3BE76E54D8A52347 /* idHead@3x.png */,
+				C44BEFF8C34C41EF99682449D44DCF01 /* idIcon.png */,
+				C653AE8BBC454D1F0EEBF671D850E829 /* idIcon@2x.png */,
+				0183C40842E2DB03AD045F6F2EDD828A /* idIcon@3x.png */,
+				EDDB3D0440D2B930E1F5BED7ED2D5460 /* nav_btn_back.png */,
+				14DAF4AFE2B98A7C7DFD23ABE6BEB5A2 /* nav_btn_back@2x.png */,
+				4214DBE557BDCABBF2ED4B1ABCCC924F /* nav_btn_back@3x.png */,
+				3192F586A9F7FBCB64A63E45DF6EECC4 /* output_labels_card.txt */,
+				394DA6A30C444F28CA9DE0032691AAFD /* photograph@2x.png */,
+				9F24E30730C2D889BEBF3E3E74399DE7 /* photograph@3x.png */,
+				4064C12685C806F56895646CDE923A25 /* tips_icon@2x.png */,
+				C5EAF60C39E060F8CDD3F3D898BFDF92 /* tips_icon@3x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -274,6 +270,16 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		4E434AAD61500E1D87E4164E973BC729 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EF702B13CF62340526113BCEADA38F1 /* OCRToolSDK.debug.xcconfig */,
+				798EBB7F0E60581BB839EC4B63CB82AD /* OCRToolSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OCRToolSDK";
+			sourceTree = "<group>";
+		};
 		526262A7419BB84C04AC3D96D7CE67A0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +297,16 @@
 			);
 			name = TensorFlowLiteObjC;
 			path = TensorFlowLiteObjC;
+			sourceTree = "<group>";
+		};
+		580F367B85A221ABFB68B734ECEC2751 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F30EB9ECB01A26474189E833C631A74B /* LICENSE */,
+				480AAE1C288DF32C550635F9E8036535 /* OCRToolSDK.podspec */,
+				090DC53AEDBC814CE65E4F26FA5AF4B7 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5DC35827F05911B7F41F42DC03FBF444 /* Pods-OCRToolSDK_Tests */ = {
@@ -314,16 +330,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TensorFlowLiteC";
-			sourceTree = "<group>";
-		};
-		6E6D9EF06D255B9D049FD566744E3802 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E7ADEB2BBBEF6738059959579ECFC820 /* LICENSE */,
-				6C66A5498024AE1A71E8D3A7D4B32DD3 /* OCRToolSDK.podspec */,
-				963181DC000295BBDACED998CF50D4BC /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		728175D3BCC68FEF9EE89A1967946F71 /* Pods */ = {
@@ -368,19 +374,9 @@
 		C5207577F3064DE22781264D0ADF1CD0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				29F7AC0F8F9862CF7D099B15D38BF0D6 /* OCRToolSDK */,
+				3B2DC83BF1D724D1C2A542F2C22F0776 /* OCRToolSDK */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C74CDADE2840B11A93BE3C513293D2D5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				693FE62C433255BB29E5B217EAD6811C /* OCRToolSDK.debug.xcconfig */,
-				706440DAEDDF335F21E043B986674D23 /* OCRToolSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OCRToolSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -402,10 +398,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBB0CE6FE17B685BF8059E2A677C22F8 /* Frameworks */ = {
+		DCD424D05F2055676D03C5F233054865 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				568A4D9952025C1EB2D1CFC54BBB94E6 /* OCRToolSDK.framework */,
+				8E3E014BD68A5B9A47D244EA2A642E3A /* OCRToolSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -736,7 +732,7 @@
 		};
 		5AB85A7342F16478DA4131719BFF4044 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 706440DAEDDF335F21E043B986674D23 /* OCRToolSDK.release.xcconfig */;
+			baseConfigurationReference = 798EBB7F0E60581BB839EC4B63CB82AD /* OCRToolSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -874,7 +870,7 @@
 		};
 		9E08AD10045F4C0D1FA9B9A60BF8AC78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 693FE62C433255BB29E5B217EAD6811C /* OCRToolSDK.debug.xcconfig */;
+			baseConfigurationReference = 9EF702B13CF62340526113BCEADA38F1 /* OCRToolSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

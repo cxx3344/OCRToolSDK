@@ -319,8 +319,6 @@
 				"${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@2x.png",
 				"${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@3x.png",
 				"${PODS_ROOT}/../../OCRToolSDK/Resources/2021031602_uint8.tflite",
-				"${PODS_ROOT}/../../OCRToolSDK/Resources/black_model_uint8.tflite",
-				"${PODS_ROOT}/../../OCRToolSDK/Resources/output_graph_uint8.tflite",
 				"${PODS_ROOT}/../../OCRToolSDK/Resources/output_labels_card.txt",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -339,8 +337,6 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tips_icon@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tips_icon@3x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/2021031602_uint8.tflite",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/black_model_uint8.tflite",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/output_graph_uint8.tflite",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/output_labels_card.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

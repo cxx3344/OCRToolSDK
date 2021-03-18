@@ -25,6 +25,8 @@ FOUNDATION_EXPORT const unsigned char OCRToolSDKVersionString[];
 #import <OCRToolSDK/HSIDCardQualityVideoCaptureManger.h>
 #import <OCRToolSDK/HSOCRIDCardQualityEnumTypeHeader.h>
 #import <OCRToolSDK/UIImage+IDCardExtend.h>
+#import <OCRToolSDK/DeviceUtil.h>
+#import <OCRToolSDK/HSTensorFlowLiteManager.h>
 
 #import <OCRToolSDK/HSIDCardScannerManager.h>
 #import <OCRToolSDK/HSIDCardScannerInfo.h>

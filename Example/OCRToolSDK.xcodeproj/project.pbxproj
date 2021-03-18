@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02065D8956DB2438C0D6C4FC /* Pods_OCRToolSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4215929AAC1229A0074250AD /* Pods_OCRToolSDK_Example.framework */; };
-		0451A7F7E95BBEA128C66244 /* Pods_OCRToolSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D01FC1105478E46BF97361 /* Pods_OCRToolSDK_Tests.framework */; };
+		5EF1FD9D09C5BF9E653B3E56 /* libPods-OCRToolSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5046714C7032C898F75AA5CB /* libPods-OCRToolSDK_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9E4BB6F3BBAC48B6FB2DAFEA /* libPods-OCRToolSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 537301A656AD60C697BA79A3 /* libPods-OCRToolSDK_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0FA85033EE53BF0ADC779548 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4215929AAC1229A0074250AD /* Pods_OCRToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRToolSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5046714C7032C898F75AA5CB /* libPods-OCRToolSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRToolSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		537301A656AD60C697BA79A3 /* libPods-OCRToolSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRToolSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* OCRToolSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRToolSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +62,6 @@
 		6E81A7C0A813B97D3821AEF9 /* Pods-OCRToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		774E6EC085A084640433199B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		86D01FC1105478E46BF97361 /* Pods_OCRToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRToolSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FCCD8852A3FA5FF9B8FAF33 /* Pods-OCRToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A40411A32A32A0C8BF7EE09E /* Pods-OCRToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRToolSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				02065D8956DB2438C0D6C4FC /* Pods_OCRToolSDK_Example.framework in Frameworks */,
+				9E4BB6F3BBAC48B6FB2DAFEA /* libPods-OCRToolSDK_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				0451A7F7E95BBEA128C66244 /* Pods_OCRToolSDK_Tests.framework in Frameworks */,
+				5EF1FD9D09C5BF9E653B3E56 /* libPods-OCRToolSDK_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4215929AAC1229A0074250AD /* Pods_OCRToolSDK_Example.framework */,
-				86D01FC1105478E46BF97361 /* Pods_OCRToolSDK_Tests.framework */,
+				537301A656AD60C697BA79A3 /* libPods-OCRToolSDK_Example.a */,
+				5046714C7032C898F75AA5CB /* libPods-OCRToolSDK_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -318,6 +318,10 @@
 				"${PODS_ROOT}/../../OCRToolSDK/Resources/photograph@3x.png",
 				"${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@2x.png",
 				"${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@3x.png",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/2021031602_uint8.tflite",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/black_model_uint8.tflite",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/output_graph_uint8.tflite",
+				"${PODS_ROOT}/../../OCRToolSDK/Resources/output_labels_card.txt",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -334,6 +338,10 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/photograph@3x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tips_icon@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tips_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/2021031602_uint8.tflite",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/black_model_uint8.tflite",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/output_graph_uint8.tflite",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/output_labels_card.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

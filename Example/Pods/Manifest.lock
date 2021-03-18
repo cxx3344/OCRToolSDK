@@ -1,16 +1,31 @@
 PODS:
-  - OCRToolSDK (1.0.4)
+  - OCRToolSDK (1.0.5):
+    - TensorFlowLiteObjC (~> 2.4.0)
+  - TensorFlowLiteC (2.4.0):
+    - TensorFlowLiteC/Core (= 2.4.0)
+  - TensorFlowLiteC/Core (2.4.0)
+  - TensorFlowLiteObjC (2.4.0):
+    - TensorFlowLiteObjC/Core (= 2.4.0)
+  - TensorFlowLiteObjC/Core (2.4.0):
+    - TensorFlowLiteC (= 2.4.0)
 
 DEPENDENCIES:
   - OCRToolSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLiteC
+    - TensorFlowLiteObjC
 
 EXTERNAL SOURCES:
   OCRToolSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OCRToolSDK: 8749bbd76ff5c2dd071f74451c763dbd802bedbb
+  OCRToolSDK: b979d083e4383d3c3c1ed53b6bd736c77408a01b
+  TensorFlowLiteC: 09f8ac75a76caeadb19bcfa694e97454cc1ecf87
+  TensorFlowLiteObjC: 2cf94aac7c183ec3dac786fb96420c2ce6e7b820
 
-PODFILE CHECKSUM: 47704590109c7f327c8791deb94e635ea495706d
+PODFILE CHECKSUM: dbf34cbfda2621e121745906cfaca955bdb39443
 
 COCOAPODS: 1.9.1

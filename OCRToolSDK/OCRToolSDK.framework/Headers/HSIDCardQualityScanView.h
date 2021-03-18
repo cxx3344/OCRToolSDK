@@ -19,12 +19,14 @@
 @property (nonatomic, strong) UIImageView * iconIV;
 /** 拍照后识别失败图片 */
 @property (nonatomic, strong) UIImageView * showIV;
-/** 错误信息label */
-@property (nonatomic, strong) UILabel * errorLabel;
-/** info图标 */
-@property (nonatomic, strong) UIImageView * infoIV;
 /** 图片尺寸 */
 @property (nonatomic, strong) UILabel * showLabel;
+/** 状态信息 */
+@property (nonatomic, strong) UILabel * stateLabel;
+
+/** 错误信息显示 */
+@property (nonatomic, strong) UIButton * errorBtn;
+
 
 
 - (instancetype)initWithFrame:(CGRect)frame

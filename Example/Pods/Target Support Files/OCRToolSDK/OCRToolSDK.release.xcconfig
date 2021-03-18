@@ -1,7 +1,7 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/OCRToolSDK
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../OCRToolSDK"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../OCRToolSDK" "${PODS_ROOT}/TensorFlowLiteC/Frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "Foundation" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TensorFlowLiteObjC"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

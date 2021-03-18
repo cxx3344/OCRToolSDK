@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCRToolSDK'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = '身份证识别工具 --OCRToolSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -18,9 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  1.监控上传新增三个字段
-  2.背面识别请求,也添加姓名及身份证信息上传
-  3.修改监控上传字段operatingSystem的取值,改为自动获取手机型号_系统版本号格式
+  1.新增自动拍照功能
                        DESC
 
   s.homepage         = 'https://github.com/cxx3344/OCRToolSDK'
@@ -32,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.resources = "OCRToolSDK/Resources/*.png"
+  s.resources = "OCRToolSDK/Resources/*.png","OCRToolSDK/Resources/*.tflite","OCRToolSDK/Resources/*.txt"
 
   s.ios.vendored_frameworks = 'OCRToolSDK/OCRToolSDK.framework'
   
@@ -42,10 +40,10 @@ Pod::Spec.new do |s|
   s.frameworks = "Foundation", "UIKit", "AVFoundation"
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'TensorFlowLiteObjC', '~> 2.4.0'
 
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.requires_arc = true
 
 

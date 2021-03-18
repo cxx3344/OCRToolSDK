@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/HSIDCardQualityDefineHeader.h</key>
 		<data>
-		GC3WEBdyg6j8RD3edfgq/4qfY2s=
+		gLzTCu0hzCamx9fiYZA6tv8Q7Rw=
 		</data>
 		<key>Headers/HSIDCardQualityScanEnumHeader.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/HSIDCardQualityScanView.h</key>
 		<data>
-		7BOPv0hitxUyNbkl0AP844LVfQc=
+		bmhL8Pt3AKgG1jwjY14elsGGjmw=
 		</data>
 		<key>Headers/HSIDCardQualityScannerController.h</key>
 		<data>
-		jNpHu/gU7PyenpY3cSe3h/aw/vY=
+		q4dhqvwvUeI8to+HW4phv18po90=
 		</data>
 		<key>Headers/HSIDCardQualityVideoCapture.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/HSIDCardQualityVideoCaptureManger.h</key>
 		<data>
-		9ocfzYAzo9EZifuiq6glwMW/xVY=
+		Z14GIHMQ4kKUb33p1acCyqvHx2g=
 		</data>
 		<key>Headers/HSIDCardScannerInfo.h</key>
 		<data>
-		eBB/91wBEFHcpFOow7WHKVAjgHA=
+		h+R2XP3WWXh5sMMo/Ls9AL039cA=
 		</data>
 		<key>Headers/HSIDCardScannerManager.h</key>
 		<data>
@@ -54,23 +54,43 @@
 		</data>
 		<key>Headers/HSIDCardScannerViewController.h</key>
 		<data>
-		wzMfmWCcmA4ae5hbndZ34M4p1I8=
+		AjkqJareSnvCAv7g6y03bA5tbvk=
+		</data>
+		<key>Headers/HSNetworkTool.h</key>
+		<data>
+		yV/9kPEVj45Kj43Z3FBmBwAuRKY=
 		</data>
 		<key>Headers/HSOCRIDCardQualityEnumTypeHeader.h</key>
 		<data>
 		rqkan9N+5g5+AfhbA1WFkzjhOVs=
 		</data>
+		<key>Headers/HSScannerItemInfo.h</key>
+		<data>
+		P46ebdryRyDwWaYhVU8yhtDWhA0=
+		</data>
+		<key>Headers/HSTensorFlowLiteManager.h</key>
+		<data>
+		eqoGy/41uI0v1MSQAevKu8l+wIQ=
+		</data>
+		<key>Headers/HSUtil.h</key>
+		<data>
+		F8kd5QPYDANAqMsYu5RI3SJ4CJI=
+		</data>
 		<key>Headers/OCRToolSDK.h</key>
 		<data>
-		ehR8aliQ6C3kXjZ3F47TxAw6Qpk=
+		MGtKP8YaSzYpeD63k3lOtYgzgtk=
 		</data>
 		<key>Headers/UIImage+IDCardExtend.h</key>
 		<data>
-		dls41WtwVCVpYX25uK2b9MXRQx8=
+		kbwCU0n0UhBVRr9Sxz4gkfnHuXA=
+		</data>
+		<key>Headers/WebAPI.h</key>
+		<data>
+		tLaUpLMIaUWHPXLJV/4VU/gIPoA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H8Hp7uW7kp9u9FosscbYqZe8x8E=
+		DfNRzGWQ7+XT8dQdWE5eHmT66cY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -127,11 +147,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GC3WEBdyg6j8RD3edfgq/4qfY2s=
+			gLzTCu0hzCamx9fiYZA6tv8Q7Rw=
 			</data>
 			<key>hash2</key>
 			<data>
-			FOwev+kTvw8uR6uu+F3mBoHd/B35lVblA8VEgylCoBc=
+			CF1wjyCtozRJbcZUGDvCs3xAY2biToFfoZSxHK5OW4E=
 			</data>
 		</dict>
 		<key>Headers/HSIDCardQualityScanEnumHeader.h</key>
@@ -149,22 +169,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7BOPv0hitxUyNbkl0AP844LVfQc=
+			bmhL8Pt3AKgG1jwjY14elsGGjmw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6mVkmOp9204TXcVNqBUgjIre8e00vrwUKa0xUwloH1E=
+			JNbutR82mNw+YTlg5EFJVfiJh0MWY7EROxEaBtbKnqU=
 			</data>
 		</dict>
 		<key>Headers/HSIDCardQualityScannerController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jNpHu/gU7PyenpY3cSe3h/aw/vY=
+			q4dhqvwvUeI8to+HW4phv18po90=
 			</data>
 			<key>hash2</key>
 			<data>
-			y719btvNZbm/uOIjU71WNPXnlQAYy/yyy3G98utUuyI=
+			dQteC5uS4BdJrH65+pUv6ZKUfWOVMv3b36iX5m/UGfM=
 			</data>
 		</dict>
 		<key>Headers/HSIDCardQualityVideoCapture.h</key>
@@ -182,22 +202,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9ocfzYAzo9EZifuiq6glwMW/xVY=
+			Z14GIHMQ4kKUb33p1acCyqvHx2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			5BqL3Awlogkaug9QLDTSSwEEPGXcGozmyHB1dLC1mDQ=
+			Cqf5lnXRPd57Yh93jaso3bn4QBNFfun9/uinkdJahpQ=
 			</data>
 		</dict>
 		<key>Headers/HSIDCardScannerInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eBB/91wBEFHcpFOow7WHKVAjgHA=
+			h+R2XP3WWXh5sMMo/Ls9AL039cA=
 			</data>
 			<key>hash2</key>
 			<data>
-			JuK2VwieiEnWrlC0naEUyv3Pk6t/xyR/Fx5z72emDiA=
+			JiSBLwb67t24utEvq08Av/5Yl7Ljv2DqfigMZIgS0Oc=
 			</data>
 		</dict>
 		<key>Headers/HSIDCardScannerManager.h</key>
@@ -215,11 +235,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wzMfmWCcmA4ae5hbndZ34M4p1I8=
+			AjkqJareSnvCAv7g6y03bA5tbvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			vzWTsSix0yzB0Vwlp8wDKhRCyCk2Ib5Tccndgpo8WX8=
+			svdDbmpuV2cIt7gsJ3WlotGhph5Sva0aw3MuHreC17w=
+			</data>
+		</dict>
+		<key>Headers/HSNetworkTool.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yV/9kPEVj45Kj43Z3FBmBwAuRKY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZDSCCwg3GmunyYWIxqvWDV/KvkV7T7haPt5nKaTUBDg=
 			</data>
 		</dict>
 		<key>Headers/HSOCRIDCardQualityEnumTypeHeader.h</key>
@@ -233,26 +264,70 @@
 			7Ow7uE1+oX2jYrDlh0rHYoqUs7QQMP7rAaKOZPXAUJ4=
 			</data>
 		</dict>
+		<key>Headers/HSScannerItemInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P46ebdryRyDwWaYhVU8yhtDWhA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			3qcX4xlvwp3NaIbRR5S3BRW7H2p5hpRCn61Z2nxgbyQ=
+			</data>
+		</dict>
+		<key>Headers/HSTensorFlowLiteManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eqoGy/41uI0v1MSQAevKu8l+wIQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			IzRI1OfzvLmnphTz/L8r/59g5X1249FUI0ZZXJxuWDE=
+			</data>
+		</dict>
+		<key>Headers/HSUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F8kd5QPYDANAqMsYu5RI3SJ4CJI=
+			</data>
+			<key>hash2</key>
+			<data>
+			j4BchKmJ86SqNpzKFtFxCZWfUGvmQGPWnKcGLa05TE0=
+			</data>
+		</dict>
 		<key>Headers/OCRToolSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ehR8aliQ6C3kXjZ3F47TxAw6Qpk=
+			MGtKP8YaSzYpeD63k3lOtYgzgtk=
 			</data>
 			<key>hash2</key>
 			<data>
-			XLoJet+9qpM4tFj9A87qW7bb5mHdDFgMmTLDwQLb52I=
+			PexR31XnVRoHAD3PmKzhW4NrMq+Qg3HBipbj/urUXgc=
 			</data>
 		</dict>
 		<key>Headers/UIImage+IDCardExtend.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dls41WtwVCVpYX25uK2b9MXRQx8=
+			kbwCU0n0UhBVRr9Sxz4gkfnHuXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			HIDLChCLu0NyA6X6npyfPQENk2M8LgPmc4sdsHrQuXk=
+			oFYnnX6IOz5zYabo59ebRpzhtmKyY0jfzqaDF7w9WCo=
+			</data>
+		</dict>
+		<key>Headers/WebAPI.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tLaUpLMIaUWHPXLJV/4VU/gIPoA=
+			</data>
+			<key>hash2</key>
+			<data>
+			TPTlMKk12gCX3JiafL6c+/Og7/YkF3YuHnhiG8RLF6Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

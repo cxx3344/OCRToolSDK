@@ -11,9 +11,7 @@
 #import "HSIDCardQualityVideoCaptureManger.h"
 #import "HSIDCardQualityBaseScanView.h"
 #import "HSOCRIDCardQualityEnumTypeHeader.h"
-#import "HSBaseInfo.h"
 #import "HSIDCardScannerInfo.h"
-#import "HSIDCardScannerManager.h"
 
 @protocol HSIDCardQualityScannerControllerDelegate <NSObject>
 
@@ -35,6 +33,10 @@
 @property (nonatomic, assign) UIInterfaceOrientation interfaceOrientation;
 @property (nonatomic, assign) AVCaptureVideoOrientation captureOrientation;
 @property (nonatomic, assign) HSIDCardQualityScanSide scanSide;
+//延时识别
+@property (nonatomic, assign) NSTimeInterval previousTime;
+@property (nonatomic, assign) NSTimeInterval delayBetweenMs;
+
 /** 姓名 */
 @property (nonatomic, strong) NSString * name;
 /** 身份证 */

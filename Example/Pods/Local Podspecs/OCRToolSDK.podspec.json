@@ -1,8 +1,8 @@
 {
   "name": "OCRToolSDK",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "summary": "身份证识别工具 --OCRToolSDK.",
-  "description": "1.监控上传新增三个字段\n2.背面识别请求,也添加姓名及身份证信息上传\n3.修改监控上传字段operatingSystem的取值,改为自动获取手机型号_系统版本号格式",
+  "description": "1.新增自动拍照功能",
   "homepage": "https://github.com/cxx3344/OCRToolSDK",
   "license": {
     "type": "MIT",
@@ -13,12 +13,16 @@
   },
   "source": {
     "git": "https://github.com/cxx3344/OCRToolSDK.git",
-    "tag": "1.0.4"
+    "tag": "1.0.5"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "resources": "OCRToolSDK/Resources/*.png",
+  "resources": [
+    "OCRToolSDK/Resources/*.png",
+    "OCRToolSDK/Resources/*.tflite",
+    "OCRToolSDK/Resources/*.txt"
+  ],
   "ios": {
     "vendored_frameworks": "OCRToolSDK/OCRToolSDK.framework"
   },
@@ -27,8 +31,16 @@
     "UIKit",
     "AVFoundation"
   ],
+  "dependencies": {
+    "TensorFlowLiteObjC": [
+      "~> 2.4.0"
+    ]
+  },
   "pod_target_xcconfig": {
     "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
   },
   "requires_arc": true
 }

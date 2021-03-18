@@ -9,229 +9,378 @@
 /* Begin PBXAggregateTarget section */
 		25F83910867536E9705199EE7E5184B7 /* OCRToolSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CFA5C90179A05D0973184DC427A564A1 /* Build configuration list for PBXAggregateTarget "OCRToolSDK" */;
+			buildConfigurationList = 30B02411E197ECDC9198572C11766450 /* Build configuration list for PBXAggregateTarget "OCRToolSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				C771D791D762BC420F5E5F04A87A9810 /* PBXTargetDependency */,
+			);
+			name = OCRToolSDK;
+		};
+		AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 666F09CD5188532DF6F55ADA2BC00C36 /* Build configuration list for PBXAggregateTarget "TensorFlowLiteC" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
-			name = OCRToolSDK;
+			name = TensorFlowLiteC;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		498B630E58C387DCB0B2E0480AA37F29 /* Pods-OCRToolSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84880F8BCEA3AB3CFA91BD1DD08B6ABD /* Pods-OCRToolSDK_Example-dummy.m */; };
-		8372338CD1624473CB4673B708663221 /* Pods-OCRToolSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6DEAB8919799CF2CC90D5A5E413ED0 /* Pods-OCRToolSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9399790F4E3E6CB92634B96A584D0C41 /* Pods-OCRToolSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED94A2002629B983213C532135C4DC34 /* Pods-OCRToolSDK_Tests-dummy.m */; };
-		DC85F7B9D989BDA6C803B7E08EC4DE57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DF58989D27CA9717C24F4C1EB4F3FBA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E2C3B2B8AAE7E95D2CC01D658972D183 /* Pods-OCRToolSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 300BA7FC7EAA41B0ECEE98F43414673F /* Pods-OCRToolSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D36B54FD036E7D5E60A2233D9D0987 /* TFLQuantizationParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B65BAC45360EA0EBFBC2A0E62C915C /* TFLQuantizationParameters.m */; };
+		175A446CC3045B5D97A18A473E3118FB /* TFLDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B2964F377D8FE41CC9D767759B5123 /* TFLDelegate.m */; };
+		196BA230587CBD64471F7DF71D47F768 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = B70BE1832ECAFC5936218B27E1DAC747 /* common.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21C1B61A0EE4D35EBF954AA8382CF796 /* TFLErrorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C912A05B7975AFECEBDD12122282722 /* TFLErrorUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2494E86997DA403C3C98AB9E9D3DFB18 /* TFLInterpreterOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BF73FF3C081DD45F29559F6A7FE4AB /* TFLInterpreterOptions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C7E4561216CEBA1CFD1CEADC6E969EF /* TFLInterpreterOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB98CBBA039F92E5F7A88894DDA42044 /* TFLInterpreterOptions.m */; };
+		347E01B753D05096C3B86BE6FA3565D3 /* TFLQuantizationParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2209DCBD1292808CB35BC676D7432C /* TFLQuantizationParameters.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38F04D35597353B5BD3EE5271E4FEE21 /* TensorFlowLiteObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDA8956E88079DF17BA1D80A8D01D49 /* TensorFlowLiteObjC-dummy.m */; };
+		43B8A2F10A79F5C18D2CDB4A734A2DF1 /* TFLTensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9739CA20DA0628D08980099E66DEBB66 /* TFLTensor.m */; };
+		4E512865329E9F9C5F2B88026F4C5AE7 /* TFLInterpreter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95676F20394535C7E8A9832031193A49 /* TFLInterpreter.mm */; };
+		76EDEF24716DD5DA5FD79DDAF5E5FA07 /* TFLInterpreter+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 55336FCF4B124DF4B0AE1108A32D4A4C /* TFLInterpreter+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82770AD7EA6A232A7C1D2A0227FDD1E0 /* TFLInterpreter.h in Headers */ = {isa = PBXBuildFile; fileRef = CA54ACFD748E998B95FF5715FA4F0B7E /* TFLInterpreter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8EA427A58CC334CA8AD122585FEF0FDC /* TFLTensorFlowLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 98ED1A39CA833AF09C04E2F1D2F3923F /* TFLTensorFlowLite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A17D62CADA000697604246FAAD9CE709 /* xnnpack_delegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E53B26949A7A5CFD541510D2D7B9627F /* xnnpack_delegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2B0B98F8F4FAA5C801732053F15A255 /* TFLTensor.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC58C21146271642D25F57215EC93C7 /* TFLTensor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD780FF479B12DCDB5957AA3A0FD99E6 /* Pods-OCRToolSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0059B7DE00CB17FFCB7EABC991CCB63 /* Pods-OCRToolSDK_Tests-dummy.m */; };
+		AFB2AE90391D5EDED5052CF1DC3B9185 /* c_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBFE2E499154A8FFB70C3845F2C4EA6 /* c_api.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B134FD05C58DDF4A4E7A50BD76B926D2 /* Pods-OCRToolSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FEE9E78C0F053E78F21D9A7FB2CF0 /* Pods-OCRToolSDK_Example-dummy.m */; };
+		B5C296A23F6A9BA9552A7752760D3CF5 /* TFLDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5849130B08B40D5402F631D5671AF6DF /* TFLDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA16C08C1049F8FF239511D8189BB9B4 /* TFLQuantizationParameters+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E883946728295D2B82DB14E24FA85E8 /* TFLQuantizationParameters+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C85464A553D3C3FE24ECAF3A3D913115 /* TFLTensor+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 667DE55D94D66737F701714379F21C3F /* TFLTensor+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2E2FE8FA80DA559833174D98664699E /* TFLErrorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFAA7A2B7BA310B5066113A026D0018 /* TFLErrorUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D66C8B935A1200D9264C66819FF6197D /* PBXContainerItemProxy */ = {
+		05DEC9F8AF96741E1CB8F5C812AA3DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC559E53E13B6FBEF4F5CC310A73AFE6;
+			remoteInfo = TensorFlowLiteC;
+		};
+		3E2DB50FB7A7E6B701FF472ECF27C5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B697A2500419F6CCC74F4EDC6DFEB75;
+			remoteInfo = TensorFlowLiteObjC;
+		};
+		5A16031BB71D9133CBC236E01679B7AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC559E53E13B6FBEF4F5CC310A73AFE6;
+			remoteInfo = TensorFlowLiteC;
+		};
+		6F20529467B503373F34C6F7F53A15D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5B88A416096F425062D1B1E30BE4C634;
 			remoteInfo = "Pods-OCRToolSDK_Example";
 		};
-		ED3230B0BDE0D662D591675E8CDE2290 /* PBXContainerItemProxy */ = {
+		826E20E89EFA2813653C0B7758A47F46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 25F83910867536E9705199EE7E5184B7;
 			remoteInfo = OCRToolSDK;
 		};
+		BD3DAFB4102D2244A26906FA9528A8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B697A2500419F6CCC74F4EDC6DFEB75;
+			remoteInfo = TensorFlowLiteObjC;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02842B53735CD1702AECDFA7F0EAD445 /* idHead.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idHead.png; path = OCRToolSDK/Resources/idHead.png; sourceTree = "<group>"; };
-		0A3BE9325028622D15A894DC8E09C509 /* idHead@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@3x.png"; path = "OCRToolSDK/Resources/idHead@3x.png"; sourceTree = "<group>"; };
-		1224FF8E968B5D70DB7A1E29BC823579 /* Pods-OCRToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1A2528F2DB6138655155179A501D4AF8 /* Pods-OCRToolSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		24B23DE0A8A06BD8029928628ACA1386 /* Pods-OCRToolSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRToolSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		300BA7FC7EAA41B0ECEE98F43414673F /* Pods-OCRToolSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCRToolSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36FFAB53DC24C7313D28FC32D17A2718 /* idIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@2x.png"; path = "OCRToolSDK/Resources/idIcon@2x.png"; sourceTree = "<group>"; };
-		455D6FBBF84C07CB5A0B3F1DD41804E5 /* nav_btn_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = nav_btn_back.png; path = OCRToolSDK/Resources/nav_btn_back.png; sourceTree = "<group>"; };
-		54D3FFDF585B9936F98C091E86B55FD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5DE8510B9080DB31B64CA633420F5853 /* tips_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@3x.png"; path = "OCRToolSDK/Resources/tips_icon@3x.png"; sourceTree = "<group>"; };
-		6AC7951143DDDFC2D7B4F2858CD0CF52 /* idHead@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@2x.png"; path = "OCRToolSDK/Resources/idHead@2x.png"; sourceTree = "<group>"; };
-		6D4215EE19CBFF734321274B34FB7C78 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCRToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6E63E8F819E7DF9DFD5BB096AD3A62DE /* Pods-OCRToolSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		7041E8DA4F41AC6BC773996AAF9FAE06 /* nav_btn_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@2x.png"; path = "OCRToolSDK/Resources/nav_btn_back@2x.png"; sourceTree = "<group>"; };
-		75957DF92CAAF61B8F54EBDDBEFBB4CE /* Pods-OCRToolSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCRToolSDK_Example.modulemap"; sourceTree = "<group>"; };
-		7AF30C56449D7453F540604F990B0775 /* idIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@3x.png"; path = "OCRToolSDK/Resources/idIcon@3x.png"; sourceTree = "<group>"; };
-		84880F8BCEA3AB3CFA91BD1DD08B6ABD /* Pods-OCRToolSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRToolSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		8C4620F6AF5D3D085F23944997778A0B /* OCRToolSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.release.xcconfig; sourceTree = "<group>"; };
-		92F12352F501883B970FDBDECB37E7A4 /* tips_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@2x.png"; path = "OCRToolSDK/Resources/tips_icon@2x.png"; sourceTree = "<group>"; };
-		988355695794EB7D8C4128C1E4BBDBE9 /* OCRToolSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.debug.xcconfig; sourceTree = "<group>"; };
-		98F5AE7CACC7D29FAEDF5E2DC88A974A /* Pods_OCRToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCRToolSDK_Example.framework; path = "Pods-OCRToolSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0315E51CE19D73041DC5277AD3572DB6 /* idIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@2x.png"; path = "OCRToolSDK/Resources/idIcon@2x.png"; sourceTree = "<group>"; };
+		03E5CA8826EB5A3FE6D5E29B2361BF62 /* TensorFlowLiteObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteObjC.release.xcconfig; sourceTree = "<group>"; };
+		04E893D62575D683A03216BC1FCD0E93 /* TensorFlowLiteObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteObjC.debug.xcconfig; sourceTree = "<group>"; };
+		06FF04CD8116DFAD56727BC5ECDCF742 /* TensorFlowLiteObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorFlowLiteObjC-prefix.pch"; sourceTree = "<group>"; };
+		0D7E8BD8D37612BC2B053C146814E3A6 /* TensorFlowLiteC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TensorFlowLiteC.framework; path = Frameworks/TensorFlowLiteC.framework; sourceTree = "<group>"; };
+		0E66047D424A2D06C8798DA9CD9CA82B /* photograph@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@3x.png"; path = "OCRToolSDK/Resources/photograph@3x.png"; sourceTree = "<group>"; };
+		0FB43A70F7E539487C0650BB6F44534B /* tips_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@3x.png"; path = "OCRToolSDK/Resources/tips_icon@3x.png"; sourceTree = "<group>"; };
+		129DDEDE1AE285715868971FDC5F8AF4 /* Pods-OCRToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1D4F721184FCC6326C1D1C3F5FA0E3AE /* idHead@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@2x.png"; path = "OCRToolSDK/Resources/idHead@2x.png"; sourceTree = "<group>"; };
+		1E7916D4DA993BBE4FDAE390A1F61EBC /* output_graph_uint8.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = output_graph_uint8.tflite; path = OCRToolSDK/Resources/output_graph_uint8.tflite; sourceTree = "<group>"; };
+		1E883946728295D2B82DB14E24FA85E8 /* TFLQuantizationParameters+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TFLQuantizationParameters+Internal.h"; path = "tensorflow/lite/experimental/objc/sources/TFLQuantizationParameters+Internal.h"; sourceTree = "<group>"; };
+		2C35672C9D709DD1199F3182CD178223 /* nav_btn_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@3x.png"; path = "OCRToolSDK/Resources/nav_btn_back@3x.png"; sourceTree = "<group>"; };
+		2F8E2E04C1224508D4FBC53953F3429F /* idIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idIcon.png; path = OCRToolSDK/Resources/idIcon.png; sourceTree = "<group>"; };
+		37E99C8724A20876B579F22A5CF8ABFE /* Pods-OCRToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3A865A326432AEB1AD8DD7276BFE11C8 /* Pods-OCRToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		419F0EFD6BB3F2828112228C255A1254 /* idIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idIcon@3x.png"; path = "OCRToolSDK/Resources/idIcon@3x.png"; sourceTree = "<group>"; };
+		47B2964F377D8FE41CC9D767759B5123 /* TFLDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLDelegate.m; path = tensorflow/lite/experimental/objc/sources/TFLDelegate.m; sourceTree = "<group>"; };
+		4CFAA7A2B7BA310B5066113A026D0018 /* TFLErrorUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLErrorUtil.m; path = tensorflow/lite/experimental/objc/sources/TFLErrorUtil.m; sourceTree = "<group>"; };
+		4D2209DCBD1292808CB35BC676D7432C /* TFLQuantizationParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLQuantizationParameters.h; path = tensorflow/lite/experimental/objc/apis/TFLQuantizationParameters.h; sourceTree = "<group>"; };
+		4E6D3C44E69DCFC2F57FC78285EF7C68 /* TensorFlowLiteC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteC.debug.xcconfig; sourceTree = "<group>"; };
+		55336FCF4B124DF4B0AE1108A32D4A4C /* TFLInterpreter+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TFLInterpreter+Internal.h"; path = "tensorflow/lite/experimental/objc/sources/TFLInterpreter+Internal.h"; sourceTree = "<group>"; };
+		568A4D9952025C1EB2D1CFC54BBB94E6 /* OCRToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCRToolSDK.framework; path = OCRToolSDK/OCRToolSDK.framework; sourceTree = "<group>"; };
+		5849130B08B40D5402F631D5671AF6DF /* TFLDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLDelegate.h; path = tensorflow/lite/experimental/objc/apis/TFLDelegate.h; sourceTree = "<group>"; };
+		5C078CC26ECAF3C2D5105702DB5DFB94 /* Pods-OCRToolSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCRToolSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		5D0A42F1C2E836DF629AA25039B2A193 /* Pods-OCRToolSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		667DE55D94D66737F701714379F21C3F /* TFLTensor+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TFLTensor+Internal.h"; path = "tensorflow/lite/experimental/objc/sources/TFLTensor+Internal.h"; sourceTree = "<group>"; };
+		693FE62C433255BB29E5B217EAD6811C /* OCRToolSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.debug.xcconfig; sourceTree = "<group>"; };
+		6C66A5498024AE1A71E8D3A7D4B32DD3 /* OCRToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCRToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		706440DAEDDF335F21E043B986674D23 /* OCRToolSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRToolSDK.release.xcconfig; sourceTree = "<group>"; };
+		7345B10E38A66E86B6436104F9076C39 /* Pods-OCRToolSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C912A05B7975AFECEBDD12122282722 /* TFLErrorUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLErrorUtil.h; path = tensorflow/lite/experimental/objc/sources/TFLErrorUtil.h; sourceTree = "<group>"; };
+		802CC3774B69F044674D47CD2D8141E8 /* idHead@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "idHead@3x.png"; path = "OCRToolSDK/Resources/idHead@3x.png"; sourceTree = "<group>"; };
+		82A04D7CD6FAE537C80466F8051FBA71 /* nav_btn_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@2x.png"; path = "OCRToolSDK/Resources/nav_btn_back@2x.png"; sourceTree = "<group>"; };
+		8315C50953E5AAED5E6AAD009CFF11D4 /* nav_btn_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = nav_btn_back.png; path = OCRToolSDK/Resources/nav_btn_back.png; sourceTree = "<group>"; };
+		8B8AEE15C4925E2AB98E8F8B26F5C670 /* photograph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@2x.png"; path = "OCRToolSDK/Resources/photograph@2x.png"; sourceTree = "<group>"; };
+		8D394054906D46BCC38984AB8D7C37F1 /* Pods-OCRToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F4DE50A86825AF3E9C349665648AAAF /* tips_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tips_icon@2x.png"; path = "OCRToolSDK/Resources/tips_icon@2x.png"; sourceTree = "<group>"; };
+		9031979E705D4F9A577E6DC997448D80 /* Pods-OCRToolSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRToolSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95676F20394535C7E8A9832031193A49 /* TFLInterpreter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = TFLInterpreter.mm; path = tensorflow/lite/experimental/objc/sources/TFLInterpreter.mm; sourceTree = "<group>"; };
+		963181DC000295BBDACED998CF50D4BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9739CA20DA0628D08980099E66DEBB66 /* TFLTensor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLTensor.m; path = tensorflow/lite/experimental/objc/sources/TFLTensor.m; sourceTree = "<group>"; };
+		97AECB5160032B9B7392261F447E7E4F /* black_model_uint8.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = black_model_uint8.tflite; path = OCRToolSDK/Resources/black_model_uint8.tflite; sourceTree = "<group>"; };
+		9822D51CF97E98CD9D336A77BC3D68E5 /* TensorFlowLiteC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteC.release.xcconfig; sourceTree = "<group>"; };
+		98ED1A39CA833AF09C04E2F1D2F3923F /* TFLTensorFlowLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLTensorFlowLite.h; path = tensorflow/lite/experimental/objc/apis/TFLTensorFlowLite.h; sourceTree = "<group>"; };
+		98F5AE7CACC7D29FAEDF5E2DC88A974A /* libPods-OCRToolSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OCRToolSDK_Example.a"; path = "libPods-OCRToolSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A311A287E265F195C782504AB294278F /* Pods-OCRToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AB400720B346D9FB23B38800B7150D26 /* Pods-OCRToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B163A76645BF5033553F6AB4F58199C6 /* OCRToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCRToolSDK.framework; path = OCRToolSDK/OCRToolSDK.framework; sourceTree = "<group>"; };
-		B1F1FD1445F7CB679FE4A1F5CB3C228B /* Pods-OCRToolSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCRToolSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		B5C444C54577D5A3833D6DF08400FB32 /* Pods-OCRToolSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRToolSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B8E73CFCB24093DC26B63E13A9BB6790 /* photograph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@2x.png"; path = "OCRToolSDK/Resources/photograph@2x.png"; sourceTree = "<group>"; };
-		C0EFF16BB710D71EB08A541786FF091C /* nav_btn_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_btn_back@3x.png"; path = "OCRToolSDK/Resources/nav_btn_back@3x.png"; sourceTree = "<group>"; };
-		C75871139E37CDE41ABA99CE8BE01053 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CA6DEAB8919799CF2CC90D5A5E413ED0 /* Pods-OCRToolSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCRToolSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D90856CFF9974B6FEA9F0999FA63E2D8 /* photograph@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photograph@3x.png"; path = "OCRToolSDK/Resources/photograph@3x.png"; sourceTree = "<group>"; };
-		E04ACB7EBAFC388710B4328F09F2F0CE /* Pods_OCRToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCRToolSDK_Tests.framework; path = "Pods-OCRToolSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED94A2002629B983213C532135C4DC34 /* Pods-OCRToolSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRToolSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		EDF6EB135D0128C609639D537BDAF24D /* Pods-OCRToolSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFCD8A01BBF6F47C95DFD318160C10E4 /* Pods-OCRToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCRToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F656148BD71C651D29CDABF584870744 /* Pods-OCRToolSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCRToolSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		F78A7846290A2110E520FFDB64E0FCD0 /* Pods-OCRToolSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCRToolSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		F94F42B0C3DECD4F817B1800DE9AE7A6 /* idIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idIcon.png; path = OCRToolSDK/Resources/idIcon.png; sourceTree = "<group>"; };
+		9EBFE2E499154A8FFB70C3845F2C4EA6 /* c_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = c_api.h; path = tensorflow/lite/c/c_api.h; sourceTree = "<group>"; };
+		AAC58C21146271642D25F57215EC93C7 /* TFLTensor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLTensor.h; path = tensorflow/lite/experimental/objc/apis/TFLTensor.h; sourceTree = "<group>"; };
+		ACDA8956E88079DF17BA1D80A8D01D49 /* TensorFlowLiteObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TensorFlowLiteObjC-dummy.m"; sourceTree = "<group>"; };
+		B30AF29C3010D6E1398931DCF7286340 /* libTensorFlowLiteObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTensorFlowLiteObjC.a; path = libTensorFlowLiteObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70BE1832ECAFC5936218B27E1DAC747 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = tensorflow/lite/c/common.h; sourceTree = "<group>"; };
+		C0059B7DE00CB17FFCB7EABC991CCB63 /* Pods-OCRToolSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRToolSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		C0B65BAC45360EA0EBFBC2A0E62C915C /* TFLQuantizationParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLQuantizationParameters.m; path = tensorflow/lite/experimental/objc/sources/TFLQuantizationParameters.m; sourceTree = "<group>"; };
+		CA54ACFD748E998B95FF5715FA4F0B7E /* TFLInterpreter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLInterpreter.h; path = tensorflow/lite/experimental/objc/apis/TFLInterpreter.h; sourceTree = "<group>"; };
+		CBCEFA10B837A17BC25A54541D95DD91 /* idHead.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idHead.png; path = OCRToolSDK/Resources/idHead.png; sourceTree = "<group>"; };
+		DF4A4EB126A44921CAA2128F52DA6212 /* output_labels_card.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = output_labels_card.txt; path = OCRToolSDK/Resources/output_labels_card.txt; sourceTree = "<group>"; };
+		E04ACB7EBAFC388710B4328F09F2F0CE /* libPods-OCRToolSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OCRToolSDK_Tests.a"; path = "libPods-OCRToolSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53B26949A7A5CFD541510D2D7B9627F /* xnnpack_delegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xnnpack_delegate.h; path = tensorflow/lite/delegates/xnnpack/xnnpack_delegate.h; sourceTree = "<group>"; };
+		E65D7C422CED351DF20F0553FDA41F95 /* 2021031602_uint8.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = 2021031602_uint8.tflite; path = OCRToolSDK/Resources/2021031602_uint8.tflite; sourceTree = "<group>"; };
+		E7ADEB2BBBEF6738059959579ECFC820 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E9188ED27E5DF5602B1C4EB3F80ABE4F /* Pods-OCRToolSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCRToolSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB98CBBA039F92E5F7A88894DDA42044 /* TFLInterpreterOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLInterpreterOptions.m; path = tensorflow/lite/experimental/objc/sources/TFLInterpreterOptions.m; sourceTree = "<group>"; };
+		EE3FEE9E78C0F053E78F21D9A7FB2CF0 /* Pods-OCRToolSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCRToolSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		F5BF73FF3C081DD45F29559F6A7FE4AB /* TFLInterpreterOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLInterpreterOptions.h; path = tensorflow/lite/experimental/objc/apis/TFLInterpreterOptions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C6C292FA259EB0ECA16BF76AC0CDA6E /* Frameworks */ = {
+		52BAABC2E7DE179CDAAA3CACFA539419 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC85F7B9D989BDA6C803B7E08EC4DE57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CFB75F2A4DE3811D26F9A2878C6715A /* Frameworks */ = {
+		B898A3D3078DB80EDA11BF8604167591 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF58989D27CA9717C24F4C1EB4F3FBA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9B1213A514557FDA32D3325963D8F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00783CC3C6FDFDD1B6E4E186F8DB881E /* Pod */ = {
+		1F6820AE3E46CFE92C40325736FA870C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C75871139E37CDE41ABA99CE8BE01053 /* LICENSE */,
-				6D4215EE19CBFF734321274B34FB7C78 /* OCRToolSDK.podspec */,
-				54D3FFDF585B9936F98C091E86B55FD7 /* README.md */,
+				ACDA8956E88079DF17BA1D80A8D01D49 /* TensorFlowLiteObjC-dummy.m */,
+				06FF04CD8116DFAD56727BC5ECDCF742 /* TensorFlowLiteObjC-prefix.pch */,
+				04E893D62575D683A03216BC1FCD0E93 /* TensorFlowLiteObjC.debug.xcconfig */,
+				03E5CA8826EB5A3FE6D5E29B2361BF62 /* TensorFlowLiteObjC.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/TensorFlowLiteObjC";
 			sourceTree = "<group>";
 		};
-		282DDCE260D389DB08FCCDFE0F36F939 /* Frameworks */ = {
+		24D5E7775E32E23D1AFE4C5D0A78D14F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B163A76645BF5033553F6AB4F58199C6 /* OCRToolSDK.framework */,
+				98F5AE7CACC7D29FAEDF5E2DC88A974A /* libPods-OCRToolSDK_Example.a */,
+				E04ACB7EBAFC388710B4328F09F2F0CE /* libPods-OCRToolSDK_Tests.a */,
+				B30AF29C3010D6E1398931DCF7286340 /* libTensorFlowLiteObjC.a */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		5D5AC05DAB264AA289D9D6331B6AE875 /* OCRToolSDK */ = {
+		29F7AC0F8F9862CF7D099B15D38BF0D6 /* OCRToolSDK */ = {
 			isa = PBXGroup;
 			children = (
-				282DDCE260D389DB08FCCDFE0F36F939 /* Frameworks */,
-				00783CC3C6FDFDD1B6E4E186F8DB881E /* Pod */,
-				A5A17AB5D5CE237717E3156AFC248586 /* Resources */,
-				659C224547B11013E75AAE2C59D65862 /* Support Files */,
+				DBB0CE6FE17B685BF8059E2A677C22F8 /* Frameworks */,
+				6E6D9EF06D255B9D049FD566744E3802 /* Pod */,
+				3BCA32C70F296D80FAEA1E10D86ECD9D /* Resources */,
+				C74CDADE2840B11A93BE3C513293D2D5 /* Support Files */,
 			);
 			name = OCRToolSDK;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		64061DC579ACF7BC96E4764AD5E7A305 /* Products */ = {
+		3BCA32C70F296D80FAEA1E10D86ECD9D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				98F5AE7CACC7D29FAEDF5E2DC88A974A /* Pods_OCRToolSDK_Example.framework */,
-				E04ACB7EBAFC388710B4328F09F2F0CE /* Pods_OCRToolSDK_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		659C224547B11013E75AAE2C59D65862 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				988355695794EB7D8C4128C1E4BBDBE9 /* OCRToolSDK.debug.xcconfig */,
-				8C4620F6AF5D3D085F23944997778A0B /* OCRToolSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OCRToolSDK";
-			sourceTree = "<group>";
-		};
-		70F954EB596E998B2F73450EB6E7D245 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C797E807C2BFC17226C41F86C7AE115 /* Pods-OCRToolSDK_Example */,
-				A82AC8B76E93DFF651B1816D33637A04 /* Pods-OCRToolSDK_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9C797E807C2BFC17226C41F86C7AE115 /* Pods-OCRToolSDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				75957DF92CAAF61B8F54EBDDBEFBB4CE /* Pods-OCRToolSDK_Example.modulemap */,
-				B5C444C54577D5A3833D6DF08400FB32 /* Pods-OCRToolSDK_Example-acknowledgements.markdown */,
-				1A2528F2DB6138655155179A501D4AF8 /* Pods-OCRToolSDK_Example-acknowledgements.plist */,
-				84880F8BCEA3AB3CFA91BD1DD08B6ABD /* Pods-OCRToolSDK_Example-dummy.m */,
-				F78A7846290A2110E520FFDB64E0FCD0 /* Pods-OCRToolSDK_Example-Info.plist */,
-				B1F1FD1445F7CB679FE4A1F5CB3C228B /* Pods-OCRToolSDK_Example-resources.sh */,
-				300BA7FC7EAA41B0ECEE98F43414673F /* Pods-OCRToolSDK_Example-umbrella.h */,
-				EFCD8A01BBF6F47C95DFD318160C10E4 /* Pods-OCRToolSDK_Example.debug.xcconfig */,
-				AB400720B346D9FB23B38800B7150D26 /* Pods-OCRToolSDK_Example.release.xcconfig */,
-			);
-			name = "Pods-OCRToolSDK_Example";
-			path = "Target Support Files/Pods-OCRToolSDK_Example";
-			sourceTree = "<group>";
-		};
-		A5A17AB5D5CE237717E3156AFC248586 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				02842B53735CD1702AECDFA7F0EAD445 /* idHead.png */,
-				6AC7951143DDDFC2D7B4F2858CD0CF52 /* idHead@2x.png */,
-				0A3BE9325028622D15A894DC8E09C509 /* idHead@3x.png */,
-				F94F42B0C3DECD4F817B1800DE9AE7A6 /* idIcon.png */,
-				36FFAB53DC24C7313D28FC32D17A2718 /* idIcon@2x.png */,
-				7AF30C56449D7453F540604F990B0775 /* idIcon@3x.png */,
-				455D6FBBF84C07CB5A0B3F1DD41804E5 /* nav_btn_back.png */,
-				7041E8DA4F41AC6BC773996AAF9FAE06 /* nav_btn_back@2x.png */,
-				C0EFF16BB710D71EB08A541786FF091C /* nav_btn_back@3x.png */,
-				B8E73CFCB24093DC26B63E13A9BB6790 /* photograph@2x.png */,
-				D90856CFF9974B6FEA9F0999FA63E2D8 /* photograph@3x.png */,
-				92F12352F501883B970FDBDECB37E7A4 /* tips_icon@2x.png */,
-				5DE8510B9080DB31B64CA633420F5853 /* tips_icon@3x.png */,
+				E65D7C422CED351DF20F0553FDA41F95 /* 2021031602_uint8.tflite */,
+				97AECB5160032B9B7392261F447E7E4F /* black_model_uint8.tflite */,
+				CBCEFA10B837A17BC25A54541D95DD91 /* idHead.png */,
+				1D4F721184FCC6326C1D1C3F5FA0E3AE /* idHead@2x.png */,
+				802CC3774B69F044674D47CD2D8141E8 /* idHead@3x.png */,
+				2F8E2E04C1224508D4FBC53953F3429F /* idIcon.png */,
+				0315E51CE19D73041DC5277AD3572DB6 /* idIcon@2x.png */,
+				419F0EFD6BB3F2828112228C255A1254 /* idIcon@3x.png */,
+				8315C50953E5AAED5E6AAD009CFF11D4 /* nav_btn_back.png */,
+				82A04D7CD6FAE537C80466F8051FBA71 /* nav_btn_back@2x.png */,
+				2C35672C9D709DD1199F3182CD178223 /* nav_btn_back@3x.png */,
+				1E7916D4DA993BBE4FDAE390A1F61EBC /* output_graph_uint8.tflite */,
+				DF4A4EB126A44921CAA2128F52DA6212 /* output_labels_card.txt */,
+				8B8AEE15C4925E2AB98E8F8B26F5C670 /* photograph@2x.png */,
+				0E66047D424A2D06C8798DA9CD9CA82B /* photograph@3x.png */,
+				8F4DE50A86825AF3E9C349665648AAAF /* tips_icon@2x.png */,
+				0FB43A70F7E539487C0650BB6F44534B /* tips_icon@3x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		A82AC8B76E93DFF651B1816D33637A04 /* Pods-OCRToolSDK_Tests */ = {
+		4858AC12A7DD19A5969767E3FD9C9E94 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				F656148BD71C651D29CDABF584870744 /* Pods-OCRToolSDK_Tests.modulemap */,
-				24B23DE0A8A06BD8029928628ACA1386 /* Pods-OCRToolSDK_Tests-acknowledgements.markdown */,
-				EDF6EB135D0128C609639D537BDAF24D /* Pods-OCRToolSDK_Tests-acknowledgements.plist */,
-				ED94A2002629B983213C532135C4DC34 /* Pods-OCRToolSDK_Tests-dummy.m */,
-				6E63E8F819E7DF9DFD5BB096AD3A62DE /* Pods-OCRToolSDK_Tests-Info.plist */,
-				CA6DEAB8919799CF2CC90D5A5E413ED0 /* Pods-OCRToolSDK_Tests-umbrella.h */,
-				1224FF8E968B5D70DB7A1E29BC823579 /* Pods-OCRToolSDK_Tests.debug.xcconfig */,
-				A311A287E265F195C782504AB294278F /* Pods-OCRToolSDK_Tests.release.xcconfig */,
+				9EBFE2E499154A8FFB70C3845F2C4EA6 /* c_api.h */,
+				B70BE1832ECAFC5936218B27E1DAC747 /* common.h */,
+				5849130B08B40D5402F631D5671AF6DF /* TFLDelegate.h */,
+				47B2964F377D8FE41CC9D767759B5123 /* TFLDelegate.m */,
+				7C912A05B7975AFECEBDD12122282722 /* TFLErrorUtil.h */,
+				4CFAA7A2B7BA310B5066113A026D0018 /* TFLErrorUtil.m */,
+				CA54ACFD748E998B95FF5715FA4F0B7E /* TFLInterpreter.h */,
+				95676F20394535C7E8A9832031193A49 /* TFLInterpreter.mm */,
+				55336FCF4B124DF4B0AE1108A32D4A4C /* TFLInterpreter+Internal.h */,
+				F5BF73FF3C081DD45F29559F6A7FE4AB /* TFLInterpreterOptions.h */,
+				EB98CBBA039F92E5F7A88894DDA42044 /* TFLInterpreterOptions.m */,
+				4D2209DCBD1292808CB35BC676D7432C /* TFLQuantizationParameters.h */,
+				C0B65BAC45360EA0EBFBC2A0E62C915C /* TFLQuantizationParameters.m */,
+				1E883946728295D2B82DB14E24FA85E8 /* TFLQuantizationParameters+Internal.h */,
+				AAC58C21146271642D25F57215EC93C7 /* TFLTensor.h */,
+				9739CA20DA0628D08980099E66DEBB66 /* TFLTensor.m */,
+				667DE55D94D66737F701714379F21C3F /* TFLTensor+Internal.h */,
+				98ED1A39CA833AF09C04E2F1D2F3923F /* TFLTensorFlowLite.h */,
+				E53B26949A7A5CFD541510D2D7B9627F /* xnnpack_delegate.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		526262A7419BB84C04AC3D96D7CE67A0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7B2886B70627FF061F7517640104208 /* Pods-OCRToolSDK_Example */,
+				5DC35827F05911B7F41F42DC03FBF444 /* Pods-OCRToolSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55BA2E975261BC25818516D3F900CEDE /* TensorFlowLiteObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4858AC12A7DD19A5969767E3FD9C9E94 /* Core */,
+				1F6820AE3E46CFE92C40325736FA870C /* Support Files */,
+			);
+			name = TensorFlowLiteObjC;
+			path = TensorFlowLiteObjC;
+			sourceTree = "<group>";
+		};
+		5DC35827F05911B7F41F42DC03FBF444 /* Pods-OCRToolSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9188ED27E5DF5602B1C4EB3F80ABE4F /* Pods-OCRToolSDK_Tests-acknowledgements.markdown */,
+				5D0A42F1C2E836DF629AA25039B2A193 /* Pods-OCRToolSDK_Tests-acknowledgements.plist */,
+				C0059B7DE00CB17FFCB7EABC991CCB63 /* Pods-OCRToolSDK_Tests-dummy.m */,
+				8D394054906D46BCC38984AB8D7C37F1 /* Pods-OCRToolSDK_Tests.debug.xcconfig */,
+				3A865A326432AEB1AD8DD7276BFE11C8 /* Pods-OCRToolSDK_Tests.release.xcconfig */,
 			);
 			name = "Pods-OCRToolSDK_Tests";
 			path = "Target Support Files/Pods-OCRToolSDK_Tests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		5E759C24D586F70CF7F99B6B8ACA4AD4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				4E6D3C44E69DCFC2F57FC78285EF7C68 /* TensorFlowLiteC.debug.xcconfig */,
+				9822D51CF97E98CD9D336A77BC3D68E5 /* TensorFlowLiteC.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/TensorFlowLiteC";
+			sourceTree = "<group>";
+		};
+		6E6D9EF06D255B9D049FD566744E3802 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E7ADEB2BBBEF6738059959579ECFC820 /* LICENSE */,
+				6C66A5498024AE1A71E8D3A7D4B32DD3 /* OCRToolSDK.podspec */,
+				963181DC000295BBDACED998CF50D4BC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		728175D3BCC68FEF9EE89A1967946F71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFA1C3CCAABD69400CCF890AF2331758 /* TensorFlowLiteC */,
+				55BA2E975261BC25818516D3F900CEDE /* TensorFlowLiteObjC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D1B891D76A111B103870BDBEA1EB69C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D7E8BD8D37612BC2B053C146814E3A6 /* TensorFlowLiteC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98F84942DC19AED1F47758542F71C953 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8D1B891D76A111B103870BDBEA1EB69C /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B7B2886B70627FF061F7517640104208 /* Pods-OCRToolSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9031979E705D4F9A577E6DC997448D80 /* Pods-OCRToolSDK_Example-acknowledgements.markdown */,
+				7345B10E38A66E86B6436104F9076C39 /* Pods-OCRToolSDK_Example-acknowledgements.plist */,
+				EE3FEE9E78C0F053E78F21D9A7FB2CF0 /* Pods-OCRToolSDK_Example-dummy.m */,
+				5C078CC26ECAF3C2D5105702DB5DFB94 /* Pods-OCRToolSDK_Example-resources.sh */,
+				37E99C8724A20876B579F22A5CF8ABFE /* Pods-OCRToolSDK_Example.debug.xcconfig */,
+				129DDEDE1AE285715868971FDC5F8AF4 /* Pods-OCRToolSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-OCRToolSDK_Example";
+			path = "Target Support Files/Pods-OCRToolSDK_Example";
 			sourceTree = "<group>";
 		};
 		C5207577F3064DE22781264D0ADF1CD0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5D5AC05DAB264AA289D9D6331B6AE875 /* OCRToolSDK */,
+				29F7AC0F8F9862CF7D099B15D38BF0D6 /* OCRToolSDK */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C74CDADE2840B11A93BE3C513293D2D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				693FE62C433255BB29E5B217EAD6811C /* OCRToolSDK.debug.xcconfig */,
+				706440DAEDDF335F21E043B986674D23 /* OCRToolSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OCRToolSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -239,36 +388,72 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C5207577F3064DE22781264D0ADF1CD0 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				64061DC579ACF7BC96E4764AD5E7A305 /* Products */,
-				70F954EB596E998B2F73450EB6E7D245 /* Targets Support Files */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				728175D3BCC68FEF9EE89A1967946F71 /* Pods */,
+				24D5E7775E32E23D1AFE4C5D0A78D14F /* Products */,
+				526262A7419BB84C04AC3D96D7CE67A0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBB0CE6FE17B685BF8059E2A677C22F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				568A4D9952025C1EB2D1CFC54BBB94E6 /* OCRToolSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFA1C3CCAABD69400CCF890AF2331758 /* TensorFlowLiteC */ = {
+			isa = PBXGroup;
+			children = (
+				98F84942DC19AED1F47758542F71C953 /* Core */,
+				5E759C24D586F70CF7F99B6B8ACA4AD4 /* Support Files */,
+			);
+			name = TensorFlowLiteC;
+			path = TensorFlowLiteC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9B2F9CB6F112874A04C93D299E42E26C /* Headers */ = {
+		5492BE7FE60883A9D78ECCEE0E8C5252 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2C3B2B8AAE7E95D2CC01D658972D183 /* Pods-OCRToolSDK_Example-umbrella.h in Headers */,
+				AFB2AE90391D5EDED5052CF1DC3B9185 /* c_api.h in Headers */,
+				196BA230587CBD64471F7DF71D47F768 /* common.h in Headers */,
+				B5C296A23F6A9BA9552A7752760D3CF5 /* TFLDelegate.h in Headers */,
+				21C1B61A0EE4D35EBF954AA8382CF796 /* TFLErrorUtil.h in Headers */,
+				76EDEF24716DD5DA5FD79DDAF5E5FA07 /* TFLInterpreter+Internal.h in Headers */,
+				82770AD7EA6A232A7C1D2A0227FDD1E0 /* TFLInterpreter.h in Headers */,
+				2494E86997DA403C3C98AB9E9D3DFB18 /* TFLInterpreterOptions.h in Headers */,
+				BA16C08C1049F8FF239511D8189BB9B4 /* TFLQuantizationParameters+Internal.h in Headers */,
+				347E01B753D05096C3B86BE6FA3565D3 /* TFLQuantizationParameters.h in Headers */,
+				C85464A553D3C3FE24ECAF3A3D913115 /* TFLTensor+Internal.h in Headers */,
+				A2B0B98F8F4FAA5C801732053F15A255 /* TFLTensor.h in Headers */,
+				8EA427A58CC334CA8AD122585FEF0FDC /* TFLTensorFlowLite.h in Headers */,
+				A17D62CADA000697604246FAAD9CE709 /* xnnpack_delegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3B576B6FCC99A1D082F93F414480EE2 /* Headers */ = {
+		7EBDE7F0DC2DBC73C51B74545787E4AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8372338CD1624473CB4673B708663221 /* Pods-OCRToolSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACDE61064E81DBFB6A69814952EAC83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,41 +462,59 @@
 /* Begin PBXNativeTarget section */
 		17455E91B3E332FEF2871B48D51F9491 /* Pods-OCRToolSDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22B0C048D0D942D42EFCBA47D5B55BBC /* Build configuration list for PBXNativeTarget "Pods-OCRToolSDK_Tests" */;
+			buildConfigurationList = 0E3F487A38A7EF882E0E070DB33483F0 /* Build configuration list for PBXNativeTarget "Pods-OCRToolSDK_Tests" */;
 			buildPhases = (
-				B3B576B6FCC99A1D082F93F414480EE2 /* Headers */,
-				B60A457BC9383CD6EF9E8CAA0E7B265C /* Sources */,
-				5CFB75F2A4DE3811D26F9A2878C6715A /* Frameworks */,
-				41C5A84D4C530921A09ACE90C0184555 /* Resources */,
+				8ACDE61064E81DBFB6A69814952EAC83 /* Headers */,
+				AB4B921FB94DDF573B3815D8A6DA3E3E /* Sources */,
+				CB9B1213A514557FDA32D3325963D8F9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A904A99E6EA43BC34C1AAB2719AC2ECB /* PBXTargetDependency */,
+				81C2F8E8382723B71A0729D3EC1EF757 /* PBXTargetDependency */,
 			);
 			name = "Pods-OCRToolSDK_Tests";
 			productName = "Pods-OCRToolSDK_Tests";
-			productReference = E04ACB7EBAFC388710B4328F09F2F0CE /* Pods_OCRToolSDK_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = E04ACB7EBAFC388710B4328F09F2F0CE /* libPods-OCRToolSDK_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		5B88A416096F425062D1B1E30BE4C634 /* Pods-OCRToolSDK_Example */ = {
+		4B697A2500419F6CCC74F4EDC6DFEB75 /* TensorFlowLiteObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEA80E3307CAC9ED27E142FE307D705 /* Build configuration list for PBXNativeTarget "Pods-OCRToolSDK_Example" */;
+			buildConfigurationList = B8124D86449724FB08BDC4463F354EBA /* Build configuration list for PBXNativeTarget "TensorFlowLiteObjC" */;
 			buildPhases = (
-				9B2F9CB6F112874A04C93D299E42E26C /* Headers */,
-				CCAF41954CDED3B30D3457A263CBA5E3 /* Sources */,
-				4C6C292FA259EB0ECA16BF76AC0CDA6E /* Frameworks */,
-				F87E0ABFC1A9C1F1F565FD3C252B4BCB /* Resources */,
+				5492BE7FE60883A9D78ECCEE0E8C5252 /* Headers */,
+				3A7CB1559CB952957DE75560D66AD76B /* Sources */,
+				52BAABC2E7DE179CDAAA3CACFA539419 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FDBA45C4460211E090F6E7BC32671B87 /* PBXTargetDependency */,
+				AEB32BF8BFFEA56393DE423737193D21 /* PBXTargetDependency */,
+			);
+			name = TensorFlowLiteObjC;
+			productName = TensorFlowLiteObjC;
+			productReference = B30AF29C3010D6E1398931DCF7286340 /* libTensorFlowLiteObjC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B88A416096F425062D1B1E30BE4C634 /* Pods-OCRToolSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B9C75DFB1B766600B2EF6E625BA2BE /* Build configuration list for PBXNativeTarget "Pods-OCRToolSDK_Example" */;
+			buildPhases = (
+				7EBDE7F0DC2DBC73C51B74545787E4AA /* Headers */,
+				F16BC5F79DCE3E8EF66FB2EC0F5D456F /* Sources */,
+				B898A3D3078DB80EDA11BF8604167591 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72A62DFED981201026041E24474ED031 /* PBXTargetDependency */,
+				77BE1DD1EAD9848C12DD3D52C2E2C29E /* PBXTargetDependency */,
+				2C988E040FAB5F252B69DBEE88F20280 /* PBXTargetDependency */,
 			);
 			name = "Pods-OCRToolSDK_Example";
 			productName = "Pods-OCRToolSDK_Example";
-			productReference = 98F5AE7CACC7D29FAEDF5E2DC88A974A /* Pods_OCRToolSDK_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 98F5AE7CACC7D29FAEDF5E2DC88A974A /* libPods-OCRToolSDK_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -331,69 +534,220 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 64061DC579ACF7BC96E4764AD5E7A305 /* Products */;
+			productRefGroup = 24D5E7775E32E23D1AFE4C5D0A78D14F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				25F83910867536E9705199EE7E5184B7 /* OCRToolSDK */,
 				5B88A416096F425062D1B1E30BE4C634 /* Pods-OCRToolSDK_Example */,
 				17455E91B3E332FEF2871B48D51F9491 /* Pods-OCRToolSDK_Tests */,
+				AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */,
+				4B697A2500419F6CCC74F4EDC6DFEB75 /* TensorFlowLiteObjC */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		41C5A84D4C530921A09ACE90C0184555 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F87E0ABFC1A9C1F1F565FD3C252B4BCB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B60A457BC9383CD6EF9E8CAA0E7B265C /* Sources */ = {
+		3A7CB1559CB952957DE75560D66AD76B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9399790F4E3E6CB92634B96A584D0C41 /* Pods-OCRToolSDK_Tests-dummy.m in Sources */,
+				38F04D35597353B5BD3EE5271E4FEE21 /* TensorFlowLiteObjC-dummy.m in Sources */,
+				175A446CC3045B5D97A18A473E3118FB /* TFLDelegate.m in Sources */,
+				D2E2FE8FA80DA559833174D98664699E /* TFLErrorUtil.m in Sources */,
+				4E512865329E9F9C5F2B88026F4C5AE7 /* TFLInterpreter.mm in Sources */,
+				2C7E4561216CEBA1CFD1CEADC6E969EF /* TFLInterpreterOptions.m in Sources */,
+				01D36B54FD036E7D5E60A2233D9D0987 /* TFLQuantizationParameters.m in Sources */,
+				43B8A2F10A79F5C18D2CDB4A734A2DF1 /* TFLTensor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCAF41954CDED3B30D3457A263CBA5E3 /* Sources */ = {
+		AB4B921FB94DDF573B3815D8A6DA3E3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498B630E58C387DCB0B2E0480AA37F29 /* Pods-OCRToolSDK_Example-dummy.m in Sources */,
+				AD780FF479B12DCDB5957AA3A0FD99E6 /* Pods-OCRToolSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16BC5F79DCE3E8EF66FB2EC0F5D456F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B134FD05C58DDF4A4E7A50BD76B926D2 /* Pods-OCRToolSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A904A99E6EA43BC34C1AAB2719AC2ECB /* PBXTargetDependency */ = {
+		2C988E040FAB5F252B69DBEE88F20280 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-OCRToolSDK_Example";
-			target = 5B88A416096F425062D1B1E30BE4C634 /* Pods-OCRToolSDK_Example */;
-			targetProxy = D66C8B935A1200D9264C66819FF6197D /* PBXContainerItemProxy */;
+			name = TensorFlowLiteObjC;
+			target = 4B697A2500419F6CCC74F4EDC6DFEB75 /* TensorFlowLiteObjC */;
+			targetProxy = BD3DAFB4102D2244A26906FA9528A8C4 /* PBXContainerItemProxy */;
 		};
-		FDBA45C4460211E090F6E7BC32671B87 /* PBXTargetDependency */ = {
+		72A62DFED981201026041E24474ED031 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OCRToolSDK;
 			target = 25F83910867536E9705199EE7E5184B7 /* OCRToolSDK */;
-			targetProxy = ED3230B0BDE0D662D591675E8CDE2290 /* PBXContainerItemProxy */;
+			targetProxy = 826E20E89EFA2813653C0B7758A47F46 /* PBXContainerItemProxy */;
+		};
+		77BE1DD1EAD9848C12DD3D52C2E2C29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteC;
+			target = AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */;
+			targetProxy = 05DEC9F8AF96741E1CB8F5C812AA3DE5 /* PBXContainerItemProxy */;
+		};
+		81C2F8E8382723B71A0729D3EC1EF757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OCRToolSDK_Example";
+			target = 5B88A416096F425062D1B1E30BE4C634 /* Pods-OCRToolSDK_Example */;
+			targetProxy = 6F20529467B503373F34C6F7F53A15D6 /* PBXContainerItemProxy */;
+		};
+		AEB32BF8BFFEA56393DE423737193D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteC;
+			target = AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */;
+			targetProxy = 5A16031BB71D9133CBC236E01679B7AE /* PBXContainerItemProxy */;
+		};
+		C771D791D762BC420F5E5F04A87A9810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteObjC;
+			target = 4B697A2500419F6CCC74F4EDC6DFEB75 /* TensorFlowLiteObjC */;
+			targetProxy = 3E2DB50FB7A7E6B701FF472ECF27C5FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02B362D267402D3F051F1E53585FAC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129DDEDE1AE285715868971FDC5F8AF4 /* Pods-OCRToolSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1181D31AD5EE428CFBF5990D306CC49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A865A326432AEB1AD8DD7276BFE11C8 /* Pods-OCRToolSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11AA00F2C59BFF0872A278B442C84DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E893D62575D683A03216BC1FCD0E93 /* TensorFlowLiteObjC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TensorFlowLiteObjC/TensorFlowLiteObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TFLTensorFlowLite;
+				PRODUCT_NAME = TensorFlowLiteObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BE9E295AD64F01AB64FF560D96955E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E5CA8826EB5A3FE6D5E29B2361BF62 /* TensorFlowLiteObjC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TensorFlowLiteObjC/TensorFlowLiteObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TFLTensorFlowLite;
+				PRODUCT_NAME = TensorFlowLiteObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE5CB0DE68DE55E4CDFFF8AC56E3D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D394054906D46BCC38984AB8D7C37F1 /* Pods-OCRToolSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AB85A7342F16478DA4131719BFF4044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706440DAEDDF335F21E043B986674D23 /* OCRToolSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,20 +805,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		904E89CACE6E54A1C464AE519EAFCB09 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C4620F6AF5D3D085F23944997778A0B /* OCRToolSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -532,9 +872,9 @@
 			};
 			name = Debug;
 		};
-		A5D712796988852C06F868CF85E69BDD /* Debug */ = {
+		9E08AD10045F4C0D1FA9B9A60BF8AC78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 988355695794EB7D8C4128C1E4BBDBE9 /* OCRToolSDK.debug.xcconfig */;
+			baseConfigurationReference = 693FE62C433255BB29E5B217EAD6811C /* OCRToolSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -545,157 +885,71 @@
 			};
 			name = Debug;
 		};
-		C4F8C0859B812AA0F1A3E5D2C16465F9 /* Release */ = {
+		C702D31141D3DDBE7F69E12F6933F552 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB400720B346D9FB23B38800B7150D26 /* Pods-OCRToolSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 9822D51CF97E98CD9D336A77BC3D68E5 /* TensorFlowLiteC.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D3A38F32F238F32595C2F05D9908A9D1 /* Debug */ = {
+		CBA05E2430B0070E7DC966CC46577E14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFCD8A01BBF6F47C95DFD318160C10E4 /* Pods-OCRToolSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 4E6D3C44E69DCFC2F57FC78285EF7C68 /* TensorFlowLiteC.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OCRToolSDK_Example/Pods-OCRToolSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F35F268CB649CDFD7B70295E50606B1F /* Debug */ = {
+		F815F7C2B68EC68852DD57CBC5A3D024 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1224FF8E968B5D70DB7A1E29BC823579 /* Pods-OCRToolSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 37E99C8724A20876B579F22A5CF8ABFE /* Pods-OCRToolSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		F46BF7BDD6F775D2FFC53D8615054526 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A311A287E265F195C782504AB294278F /* Pods-OCRToolSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OCRToolSDK_Tests/Pods-OCRToolSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEA80E3307CAC9ED27E142FE307D705 /* Build configuration list for PBXNativeTarget "Pods-OCRToolSDK_Example" */ = {
+		0E3F487A38A7EF882E0E070DB33483F0 /* Build configuration list for PBXNativeTarget "Pods-OCRToolSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3A38F32F238F32595C2F05D9908A9D1 /* Debug */,
-				C4F8C0859B812AA0F1A3E5D2C16465F9 /* Release */,
+				4BE5CB0DE68DE55E4CDFFF8AC56E3D98 /* Debug */,
+				1181D31AD5EE428CFBF5990D306CC49A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22B0C048D0D942D42EFCBA47D5B55BBC /* Build configuration list for PBXNativeTarget "Pods-OCRToolSDK_Tests" */ = {
+		30B02411E197ECDC9198572C11766450 /* Build configuration list for PBXAggregateTarget "OCRToolSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F35F268CB649CDFD7B70295E50606B1F /* Debug */,
-				F46BF7BDD6F775D2FFC53D8615054526 /* Release */,
+				9E08AD10045F4C0D1FA9B9A60BF8AC78 /* Debug */,
+				5AB85A7342F16478DA4131719BFF4044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -709,11 +963,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFA5C90179A05D0973184DC427A564A1 /* Build configuration list for PBXAggregateTarget "OCRToolSDK" */ = {
+		51B9C75DFB1B766600B2EF6E625BA2BE /* Build configuration list for PBXNativeTarget "Pods-OCRToolSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5D712796988852C06F868CF85E69BDD /* Debug */,
-				904E89CACE6E54A1C464AE519EAFCB09 /* Release */,
+				F815F7C2B68EC68852DD57CBC5A3D024 /* Debug */,
+				02B362D267402D3F051F1E53585FAC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666F09CD5188532DF6F55ADA2BC00C36 /* Build configuration list for PBXAggregateTarget "TensorFlowLiteC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA05E2430B0070E7DC966CC46577E14 /* Debug */,
+				C702D31141D3DDBE7F69E12F6933F552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8124D86449724FB08BDC4463F354EBA /* Build configuration list for PBXNativeTarget "TensorFlowLiteObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AA00F2C59BFF0872A278B442C84DFD /* Debug */,
+				1BE9E295AD64F01AB64FF560D96955E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

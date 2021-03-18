@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
 CODE_SUCCESS(0, "解析成功"),
 CODE_NETWORK(1, "网络访问错误"),
-CODE_INIT(2, "初始化失败"),(暂无,安卓OpenCV库使用)
+CODE_TIMEOUT(2, "识别超时"),(识别时间超过3s)
 CODE_REJECT(3, "图像模糊"),(暂无,安卓OpenCV库使用)
 CODE_NO_NAME(4, "未识别到姓名"),
 CODE_CODE_NO_ID_NUM(5, "未识别到身份证号码"),

@@ -9,6 +9,7 @@
 #import "HSViewController.h"
 #import <Photos/Photos.h>
 #import <OCRToolSDK/OCRToolSDK.h>
+
 @interface HSViewController ()
 <
 HSIDCardScannerViewControllerDelegate

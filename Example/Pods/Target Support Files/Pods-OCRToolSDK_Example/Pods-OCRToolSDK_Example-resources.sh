@@ -110,6 +110,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/photograph@3x.png"
   install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@2x.png"
   install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@3x.png"
+  install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/2021031602_uint8.tflite"
+  install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/black_model_uint8.tflite"
+  install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/output_graph_uint8.tflite"
+  install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/output_labels_card.txt"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/idHead.png"
@@ -125,6 +129,10 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/photograph@3x.png"
   install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@2x.png"
   install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/tips_icon@3x.png"
+  install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/2021031602_uint8.tflite"
+  install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/black_model_uint8.tflite"
+  install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/output_graph_uint8.tflite"
+  install_resource "${PODS_ROOT}/../../OCRToolSDK/Resources/output_labels_card.txt"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

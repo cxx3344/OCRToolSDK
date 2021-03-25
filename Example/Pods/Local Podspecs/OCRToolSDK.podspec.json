@@ -2,7 +2,7 @@
   "name": "OCRToolSDK",
   "version": "1.0.6",
   "summary": "身份证识别工具 --OCRToolSDK.",
-  "description": "1.更新拍照界面",
+  "description": "1.更新拍照界面提示信息显示\n2.修复图标不一致",
   "homepage": "https://github.com/cxx3344/OCRToolSDK",
   "license": {
     "type": "MIT",

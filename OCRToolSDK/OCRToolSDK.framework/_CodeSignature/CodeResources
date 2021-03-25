@@ -58,11 +58,11 @@
 		</data>
 		<key>Headers/HSNetworkTool.h</key>
 		<data>
-		yV/9kPEVj45Kj43Z3FBmBwAuRKY=
+		phSN7SPcuLy58R2GMoZ3VW4xOyE=
 		</data>
 		<key>Headers/HSOCRIDCardQualityEnumTypeHeader.h</key>
 		<data>
-		rqkan9N+5g5+AfhbA1WFkzjhOVs=
+		ESSHg0jIyQNUSEKIeY7BLwJDx/c=
 		</data>
 		<key>Headers/HSScannerItemInfo.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Headers/OCRToolSDK.h</key>
 		<data>
-		8PoSOZN4V4pZvx58FVt1Gch0JVk=
+		fCutNMjH4iCWpxLz/gV5Wz0jvIo=
 		</data>
 		<key>Headers/UIImage+IDCardExtend.h</key>
 		<data>
@@ -246,22 +246,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yV/9kPEVj45Kj43Z3FBmBwAuRKY=
+			phSN7SPcuLy58R2GMoZ3VW4xOyE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZDSCCwg3GmunyYWIxqvWDV/KvkV7T7haPt5nKaTUBDg=
+			8lEZOsoIxTonFtJ0qkxuKpbOH5h27djyeCmqeYfCA+I=
 			</data>
 		</dict>
 		<key>Headers/HSOCRIDCardQualityEnumTypeHeader.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rqkan9N+5g5+AfhbA1WFkzjhOVs=
+			ESSHg0jIyQNUSEKIeY7BLwJDx/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Ow7uE1+oX2jYrDlh0rHYoqUs7QQMP7rAaKOZPXAUJ4=
+			ZQK+3Z/b5mJvG9NOgTDAcapNTyTm/011XDAdDV4kteQ=
 			</data>
 		</dict>
 		<key>Headers/HSScannerItemInfo.h</key>
@@ -301,11 +301,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8PoSOZN4V4pZvx58FVt1Gch0JVk=
+			fCutNMjH4iCWpxLz/gV5Wz0jvIo=
 			</data>
 			<key>hash2</key>
 			<data>
-			XD3D8NmiFPati3QIH9ha5xkHU3VtZ0tIn3Vvt6sPyro=
+			zSRSNyvK8hyg3LG1nFLoM7z79Gk8ph7pJq3oe0t7M6U=
 			</data>
 		</dict>
 		<key>Headers/UIImage+IDCardExtend.h</key>

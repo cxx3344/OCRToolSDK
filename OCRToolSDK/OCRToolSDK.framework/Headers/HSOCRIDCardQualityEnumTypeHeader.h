@@ -15,6 +15,8 @@
 typedef enum : NSUInteger {
     /** 测试环境 */
     HSIDOCRNetworkStateTestType = 0,
+    /** UAT环境 */
+    HSIDOCRNetworkStateUatType,
     /** 正式环境 */
     HSIDOCRNetworkStateProductionType,
     /** 其他环境 */

@@ -14,6 +14,9 @@
 <
 HSIDCardScannerViewControllerDelegate
 >
+{
+    HSIDOCRNetworkStateType stateType;
+}
 
 @property (weak, nonatomic) IBOutlet UIImageView *frontIV;
 
@@ -32,6 +35,7 @@ HSIDCardScannerViewControllerDelegate
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    stateType = HSIDOCRNetworkStateTestType;
     self.view.backgroundColor = [UIColor whiteColor];
     
     NSLog(@"SDKVersion: %@",HSIDCardVersion);
@@ -48,6 +52,16 @@ HSIDCardScannerViewControllerDelegate
     [self takePicActionWithType:2];
 }
 
+- (IBAction)segmentAction:(UISegmentedControl *)sender {
+    if (sender.selectedSegmentIndex == 0) {
+        stateType = HSIDOCRNetworkStateTestType;
+    }else if (sender.selectedSegmentIndex == 1){
+        stateType = HSIDOCRNetworkStateUatType;
+    }else{
+        stateType = HSIDOCRNetworkStateProductionType;
+    }
+}
+
 
 ///拍照
 - (void)takePicActionWithType:(NSInteger)type{
@@ -56,15 +70,13 @@ HSIDCardScannerViewControllerDelegate
     HSIDCardScannerViewController *vc = [[HSIDCardScannerViewController alloc] initWithName:SAFE_STRING(self.nameTF.text) idCardNum:SAFE_STRING(self.idCardTF.text)];
     vc.idCardScannerViewDelegate = self;
     //设置OCR使用环境
-    vc.networkType = HSIDOCRNetworkStateTestType;
+    vc.networkType = stateType;
     //设置OCR拍照正反面
     vc.scanType = HSIDCardQualityScanTypeFront;
     if (type != 1) {
         vc.scanType = HSIDCardQualityScanTypeBack;
     }
     [self.navigationController pushViewController:vc animated:YES];
-    
-
 }
 
 #pragma mark -- HSIDCardScannerViewControllerDelegate

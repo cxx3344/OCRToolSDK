@@ -13,7 +13,8 @@
 NS_ASSUME_NONNULL_BEGIN
 typedef enum : NSUInteger {
     HSNetworkStateTestType = 0,
-    HSNetworkStateProductionType,
+    HSNetworkStateUatType = 1,
+    HSNetworkStateProductionType = 2,
     HSNetworkStateOtherType,
 } HSNetworkStateType;
 

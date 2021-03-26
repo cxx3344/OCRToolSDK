@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="22b-T5-Ybs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="22b-T5-Ybs">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -96,7 +96,21 @@
                             <constraint firstItem="BpV-3V-v3j" firstAttribute="top" secondItem="RI5-dM-SZb" secondAttribute="bottom" constant="10" id="yKx-qw-v0f"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="jve-MX-RyO"/>
+                    <navigationItem key="navigationItem" id="jve-MX-RyO">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Ro3-z6-aGf">
+                            <rect key="frame" x="119" y="5.5" width="137" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="测试"/>
+                                <segment title="UAT"/>
+                                <segment title="生产"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentAction:" destination="whP-gf-Uak" eventType="valueChanged" id="Bcy-Sn-NmU"/>
+                            </connections>
+                        </segmentedControl>
+                    </navigationItem>
                     <connections>
                         <outlet property="backIV" destination="BpV-3V-v3j" id="aam-mm-B7X"/>
                         <outlet property="frontIV" destination="Q0o-NL-osc" id="epd-vs-r6W"/>

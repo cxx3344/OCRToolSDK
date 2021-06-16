@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCRToolSDK'
-  s.version          = '1.0.9'
+  s.version          = '1.1.0'
   s.summary          = '身份证识别工具 --OCRToolSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -18,8 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  1.添加身份证扫描动画,
-  2.添加扫描完成后返回动画
+  1.修正SDK版本号
                        DESC
 
   s.homepage         = 'https://github.com/cxx3344/OCRToolSDK'

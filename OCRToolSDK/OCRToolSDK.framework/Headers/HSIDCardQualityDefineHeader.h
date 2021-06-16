@@ -52,7 +52,7 @@
 #define STSCALEH HSIDCardQuality_SCREEN_HEIGHT/568.0
 
 #define SKIPCOUNT 40
-#define SDKVersion @"v1.2.0"
+#define SDKVersion @"v1.4.0"
 ///字符串判空
 #define SAFE_STRING(string) (string != nil) ? (string) : (string = @"")
 #define IS_EMPTY_STRING(string) (string == nil ||[string isEqualToString:@""])? YES : NO

@@ -35,5 +35,26 @@ FOUNDATION_EXPORT const unsigned char OCRToolSDKVersionString[];
 #import <OCRToolSDK/WebAPI.h>
 #import <OCRToolSDK/HSScannerItemInfo.h>
 #import <OCRToolSDK/HSNetworkTool.h>
- 
+
+#import <OCRToolSDK/HSIDCardScaningView.h>
+
+#import <OCRToolSDK/HSPercentDrivenInteractiveTransition.h>
+#import <OCRToolSDK/HSTransitionManager+SystermAnimation.h>
+#import <OCRToolSDK/HSTransitionManager+BoomAnimation.h>
+#import <OCRToolSDK/HSTransitionManager+TypeTool.h>
+#import <OCRToolSDK/HSTransitionManager+BrickAnimation.h>
+#import <OCRToolSDK/HSTransitionManager+ViewMoveAnimation.h>
+#import <OCRToolSDK/HSTransitionManager+CoverAnimation.h>
+#import <OCRToolSDK/HSTransitionManager.h>
+#import <OCRToolSDK/HSTransitionManager+FlipAnimation.h>
+#import <OCRToolSDK/HSTransitionProperty.h>
+#import <OCRToolSDK/HSTransitionManager+FragmentAnimation.h>
+#import <OCRToolSDK/HSTypedefConfig.h>
+#import <OCRToolSDK/HSTransitionManager+InsideThenPushAnimation.h>
+#import <OCRToolSDK/UINavigationController+HSTransition.h>
+#import <OCRToolSDK/HSTransitionManager+PageAnimation.h>
+#import <OCRToolSDK/UIViewController+HSTransition.h>
+#import <OCRToolSDK/HSTransitionManager+SpreadAnimation.h>
+#import <OCRToolSDK/UIViewController+HSTransitionProperty.h>
+
 

@@ -44,6 +44,10 @@
 		<data>
 		Z14GIHMQ4kKUb33p1acCyqvHx2g=
 		</data>
+		<key>Headers/HSIDCardScaningView.h</key>
+		<data>
+		cCIRbrsPQ44jAsqoLjMZ+RnMr0c=
+		</data>
 		<key>Headers/HSIDCardScannerInfo.h</key>
 		<data>
 		h+R2XP3WWXh5sMMo/Ls9AL039cA=
@@ -54,7 +58,7 @@
 		</data>
 		<key>Headers/HSIDCardScannerViewController.h</key>
 		<data>
-		AjkqJareSnvCAv7g6y03bA5tbvk=
+		0Ef1v6KSmlPxxfUyv5kmlqEYXZs=
 		</data>
 		<key>Headers/HSNetworkTool.h</key>
 		<data>
@@ -62,7 +66,11 @@
 		</data>
 		<key>Headers/HSOCRIDCardQualityEnumTypeHeader.h</key>
 		<data>
-		ESSHg0jIyQNUSEKIeY7BLwJDx/c=
+		c10ivs+EwW0cwfQrSuTBFzFYnFE=
+		</data>
+		<key>Headers/HSPercentDrivenInteractiveTransition.h</key>
+		<data>
+		sF49N0CUk/HkS8q4CtKYJI9sgrw=
 		</data>
 		<key>Headers/HSScannerItemInfo.h</key>
 		<data>
@@ -72,17 +80,85 @@
 		<data>
 		eqoGy/41uI0v1MSQAevKu8l+wIQ=
 		</data>
+		<key>Headers/HSTransitionManager+BoomAnimation.h</key>
+		<data>
+		Xy2ZFP1qTOuSBCDJcc80uw/jYzU=
+		</data>
+		<key>Headers/HSTransitionManager+BrickAnimation.h</key>
+		<data>
+		2n+uKwR2k+fnb8dwn1KTJ/TmgMg=
+		</data>
+		<key>Headers/HSTransitionManager+CoverAnimation.h</key>
+		<data>
+		MO0DX1aVPIfZoVb3Gsbh5Crp+DM=
+		</data>
+		<key>Headers/HSTransitionManager+FlipAnimation.h</key>
+		<data>
+		NqKG0uKmqf8ld14ZIKZRhP9DdIY=
+		</data>
+		<key>Headers/HSTransitionManager+FragmentAnimation.h</key>
+		<data>
+		37/XVXyqAB9Mg4l/emy5iQdPQc4=
+		</data>
+		<key>Headers/HSTransitionManager+InsideThenPushAnimation.h</key>
+		<data>
+		xsyvgEN7H4ftOkF4TgXvsFr2JLw=
+		</data>
+		<key>Headers/HSTransitionManager+PageAnimation.h</key>
+		<data>
+		KFxM99+pMCdhNJT8aVVAZmUr4y8=
+		</data>
+		<key>Headers/HSTransitionManager+SpreadAnimation.h</key>
+		<data>
+		nDoB2xYFxYUtWXqZiJJ32hTJwmg=
+		</data>
+		<key>Headers/HSTransitionManager+SystermAnimation.h</key>
+		<data>
+		KJV4H3z8ou/j8DMvuP6QpbFUYHc=
+		</data>
+		<key>Headers/HSTransitionManager+TypeTool.h</key>
+		<data>
+		9C1HuH/zrj+ql1UgJHyjHvu7RBA=
+		</data>
+		<key>Headers/HSTransitionManager+ViewMoveAnimation.h</key>
+		<data>
+		/bMo/HeACXR/zWyOqMLFf7bA3fw=
+		</data>
+		<key>Headers/HSTransitionManager.h</key>
+		<data>
+		+/sukSsZuWG/TipaYnyCr6y2nDc=
+		</data>
+		<key>Headers/HSTransitionProperty.h</key>
+		<data>
+		Ao94tJfwC06I5LO0U6YxR7tDg+Q=
+		</data>
+		<key>Headers/HSTypedefConfig.h</key>
+		<data>
+		RmXFPt6q1dJoUr3B5oQNzyQyPBM=
+		</data>
 		<key>Headers/HSUtil.h</key>
 		<data>
 		F8kd5QPYDANAqMsYu5RI3SJ4CJI=
 		</data>
 		<key>Headers/OCRToolSDK.h</key>
 		<data>
-		fCutNMjH4iCWpxLz/gV5Wz0jvIo=
+		CaQ8mHjI1dyMNipSSnJVOyyCkOQ=
 		</data>
 		<key>Headers/UIImage+IDCardExtend.h</key>
 		<data>
 		kbwCU0n0UhBVRr9Sxz4gkfnHuXA=
+		</data>
+		<key>Headers/UINavigationController+HSTransition.h</key>
+		<data>
+		b/p61g+ht6VnOIMvLuIQ4oP7afg=
+		</data>
+		<key>Headers/UIViewController+HSTransition.h</key>
+		<data>
+		u+O0U5ijkQx+dprAHmO7tD9Bh74=
+		</data>
+		<key>Headers/UIViewController+HSTransitionProperty.h</key>
+		<data>
+		vBYOMURqCT2oVBWqzML3A8eLIzY=
 		</data>
 		<key>Headers/WebAPI.h</key>
 		<data>
@@ -90,7 +166,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DfNRzGWQ7+XT8dQdWE5eHmT66cY=
+		/mcOwsuYx42X12L5QexH69UBBcU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -209,6 +285,17 @@
 			Cqf5lnXRPd57Yh93jaso3bn4QBNFfun9/uinkdJahpQ=
 			</data>
 		</dict>
+		<key>Headers/HSIDCardScaningView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cCIRbrsPQ44jAsqoLjMZ+RnMr0c=
+			</data>
+			<key>hash2</key>
+			<data>
+			85wyo56Nl6+ajL+PJVtfGrSun9EP7XA1oEYaAZ9oASw=
+			</data>
+		</dict>
 		<key>Headers/HSIDCardScannerInfo.h</key>
 		<dict>
 			<key>hash</key>
@@ -235,11 +322,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AjkqJareSnvCAv7g6y03bA5tbvk=
+			0Ef1v6KSmlPxxfUyv5kmlqEYXZs=
 			</data>
 			<key>hash2</key>
 			<data>
-			svdDbmpuV2cIt7gsJ3WlotGhph5Sva0aw3MuHreC17w=
+			XFc0wMTOBztPzbVGDIE/O4grQuRjK+trGuVdysRCsuM=
 			</data>
 		</dict>
 		<key>Headers/HSNetworkTool.h</key>
@@ -257,11 +344,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ESSHg0jIyQNUSEKIeY7BLwJDx/c=
+			c10ivs+EwW0cwfQrSuTBFzFYnFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZQK+3Z/b5mJvG9NOgTDAcapNTyTm/011XDAdDV4kteQ=
+			dr7s+7XO1Ys/Kb0Bu2nDTG55Lzu6T337DWIl8S+jhuk=
+			</data>
+		</dict>
+		<key>Headers/HSPercentDrivenInteractiveTransition.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sF49N0CUk/HkS8q4CtKYJI9sgrw=
+			</data>
+			<key>hash2</key>
+			<data>
+			6qKY1B74rE/A9wPBGOHS0kpdjUvNNXZo7h7kqOCOGyc=
 			</data>
 		</dict>
 		<key>Headers/HSScannerItemInfo.h</key>
@@ -286,6 +384,160 @@
 			IzRI1OfzvLmnphTz/L8r/59g5X1249FUI0ZZXJxuWDE=
 			</data>
 		</dict>
+		<key>Headers/HSTransitionManager+BoomAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xy2ZFP1qTOuSBCDJcc80uw/jYzU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Uln8i5ll8efHdpaxTz5B1Nt+y/8OQ87ucO/mEbFOwRA=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+BrickAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2n+uKwR2k+fnb8dwn1KTJ/TmgMg=
+			</data>
+			<key>hash2</key>
+			<data>
+			5NwHVhxcXJ7aXE+KMD8fSWOXoYy2IBa0PdRmSHEPEFU=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+CoverAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MO0DX1aVPIfZoVb3Gsbh5Crp+DM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RJJVxt0CioHdvs/nxrTFTSZd4ua4gQLScMuNu4vTMiE=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+FlipAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NqKG0uKmqf8ld14ZIKZRhP9DdIY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ovv6eE1o0+XSqRKjFPENfulOMpjK3Zhf35VKLLSLMWE=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+FragmentAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			37/XVXyqAB9Mg4l/emy5iQdPQc4=
+			</data>
+			<key>hash2</key>
+			<data>
+			RQC7cB9IUCtV0WvLlHVlfCeSuU6Oq/zSFs+D965Wfjc=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+InsideThenPushAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xsyvgEN7H4ftOkF4TgXvsFr2JLw=
+			</data>
+			<key>hash2</key>
+			<data>
+			KEph5jjG3PdZGjompDo7waL2xc3XG2b5wNVF/IFMpyM=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+PageAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KFxM99+pMCdhNJT8aVVAZmUr4y8=
+			</data>
+			<key>hash2</key>
+			<data>
+			W/7/+69RNrPA5TyTpyH81oMMH3/ALgbZHze4twshopY=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+SpreadAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nDoB2xYFxYUtWXqZiJJ32hTJwmg=
+			</data>
+			<key>hash2</key>
+			<data>
+			6pJ9JuZVs3JE7XScYK33XajWCN4v12YLUswbpPMRo8k=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+SystermAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KJV4H3z8ou/j8DMvuP6QpbFUYHc=
+			</data>
+			<key>hash2</key>
+			<data>
+			FvKf4+JA4kC832Yefhgp9FaOmljkov9YBnYiXAjvzAk=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+TypeTool.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9C1HuH/zrj+ql1UgJHyjHvu7RBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			hof5sQKruj3Shjq4evrvHSy7J4QO9OICI5EJYybVvNQ=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager+ViewMoveAnimation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/bMo/HeACXR/zWyOqMLFf7bA3fw=
+			</data>
+			<key>hash2</key>
+			<data>
+			zV93b9wvv6BsgOaqQexm50uFiWzohKsH8ZWtM1QfWT8=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+/sukSsZuWG/TipaYnyCr6y2nDc=
+			</data>
+			<key>hash2</key>
+			<data>
+			21v/34f4lHO4z1MJa7dmjDTn4pgVaBuMuemyRJbS4zw=
+			</data>
+		</dict>
+		<key>Headers/HSTransitionProperty.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ao94tJfwC06I5LO0U6YxR7tDg+Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			Gl/F0aU84CdAfwVfWGuEyTM5EYR2xchx4Ct/bVJEfSE=
+			</data>
+		</dict>
+		<key>Headers/HSTypedefConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RmXFPt6q1dJoUr3B5oQNzyQyPBM=
+			</data>
+			<key>hash2</key>
+			<data>
+			s+Fi6EJRw2qEYKK+HucQmF2TSKSoXZ3kQX6yGC4qeUk=
+			</data>
+		</dict>
 		<key>Headers/HSUtil.h</key>
 		<dict>
 			<key>hash</key>
@@ -301,11 +553,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fCutNMjH4iCWpxLz/gV5Wz0jvIo=
+			CaQ8mHjI1dyMNipSSnJVOyyCkOQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zSRSNyvK8hyg3LG1nFLoM7z79Gk8ph7pJq3oe0t7M6U=
+			+QiV3Frdl1oOdIYKOKp4WADJX2KKLTmjgHZORZFi4hM=
 			</data>
 		</dict>
 		<key>Headers/UIImage+IDCardExtend.h</key>
@@ -317,6 +569,39 @@
 			<key>hash2</key>
 			<data>
 			oFYnnX6IOz5zYabo59ebRpzhtmKyY0jfzqaDF7w9WCo=
+			</data>
+		</dict>
+		<key>Headers/UINavigationController+HSTransition.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b/p61g+ht6VnOIMvLuIQ4oP7afg=
+			</data>
+			<key>hash2</key>
+			<data>
+			fJu11Ox5ahBYsNhY0ay0sPh657x21C4HfPZXYQ12i5Y=
+			</data>
+		</dict>
+		<key>Headers/UIViewController+HSTransition.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u+O0U5ijkQx+dprAHmO7tD9Bh74=
+			</data>
+			<key>hash2</key>
+			<data>
+			IXY5LEdzRXT0f3QoBDSJmcgnH117xix+3+x62qtYFu8=
+			</data>
+		</dict>
+		<key>Headers/UIViewController+HSTransitionProperty.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vBYOMURqCT2oVBWqzML3A8eLIzY=
+			</data>
+			<key>hash2</key>
+			<data>
+			z9JMHZ56YaICLBz7mKq7uNYEYKcWigfxVe990fqdrms=
 			</data>
 		</dict>
 		<key>Headers/WebAPI.h</key>

@@ -113,7 +113,7 @@ typedef NS_ENUM(NSInteger, HSIDOCRIDCardQualityCloudInternalCode) {
     HSIDOCRIDCardQuality_CLOUD_INTERNAL_INVALID_SIGNATURE = 9011,
     /** bundle_id验证失败 */
     HSIDOCRIDCardQuality_CLOUD_INTERNAL_INVALID_BUNDLE_ID = 9012,
-    /** 内部错误，请联系商汤支持人员 */
+    /** 内部错误，请联系支持人员 */
     HSIDOCRIDCardQuality_CLOUD_INTERNAL_SENSETIME_ERROR = 9100,
 };
 

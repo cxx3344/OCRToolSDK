@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "HSCustomIDCardScannerController.h"
+#import "UINavigationController+HSTransition.h"
+
 extern NSString * _Nonnull HSIDCardVersion;
 
 typedef NS_ENUM(NSUInteger, HSIDCardQualityScanType) {

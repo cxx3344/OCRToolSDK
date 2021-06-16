@@ -10,6 +10,8 @@
 #import <Photos/Photos.h>
 #import <OCRToolSDK/OCRToolSDK.h>
 
+
+
 @interface HSViewController ()
 <
 HSIDCardScannerViewControllerDelegate
@@ -76,7 +78,12 @@ HSIDCardScannerViewControllerDelegate
     if (type != 1) {
         vc.scanType = HSIDCardQualityScanTypeBack;
     }
-    [self.navigationController pushViewController:vc animated:YES];
+    [self.navigationController HS_pushViewController:vc makeTransition:^(HSTransitionProperty *transition) {
+        transition.transitionType = HSTransitionTypePop;
+        transition.backGestureType = HSGestureTypePanRight;
+        transition.animationType = HSTransitionAnimationTypeBrickCloseVertical;
+    }];
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark -- HSIDCardScannerViewControllerDelegate

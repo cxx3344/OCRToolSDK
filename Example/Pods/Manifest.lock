@@ -1,5 +1,5 @@
 PODS:
-  - OCRToolSDK (1.0.9):
+  - OCRToolSDK (1.1.0):
     - TensorFlowLiteObjC (~> 2.4.0)
   - TensorFlowLiteC (2.4.0):
     - TensorFlowLiteC/Core (= 2.4.0)
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OCRToolSDK: 4fec3a18b01e7f75fc6d5145732c0f0d110e4479
+  OCRToolSDK: ad264b434d3f5093622384c8a292a03cebb7016b
   TensorFlowLiteC: 09f8ac75a76caeadb19bcfa694e97454cc1ecf87
   TensorFlowLiteObjC: 2cf94aac7c183ec3dac786fb96420c2ce6e7b820
 
